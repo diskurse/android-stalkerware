@@ -12,6 +12,9 @@ http://catwatchful.com/api/?operation=updateDeviceLastSync&imei=
 http://catwatchful.com/api/?operation=vaciarNewData&imei=
 http://catwatchful.com/api/?operation=getInfo
 
+Easy Logger
+http://97.logger.mobi/auth/token
+
 NetSpy
 https://www.netspy.net/cp/server/insertsmss
 https://www.netspy.net/cp/server/insertgpss
@@ -22,3 +25,7 @@ https://www.netspy.net/cp/server/devicetoken
 https://www.netspy.net/cp/server/account
 https://www.netspy.net/cp/server/checkdevice
  
+Shadow
+https://www.shadow-logs.com/backend/data/submitlogs
+https://www.shadow-logs.com/backend/user/subscription
+https://www.shadow-logs.com/backend/user/login
