@@ -13,7 +13,20 @@ http://catwatchful.com/api/?operation=vaciarNewData&imei=
 http://catwatchful.com/api/?operation=getInfo
 
 Easy Logger
+http://97.logger.mobi/signalr_v1/checkDeviceRegistration
+http://97.logger.mobi/signalr_v1/saveSettingsNew
 http://97.logger.mobi/auth/token
+http://97.logger.mobi/signalr/negotiate?clientProtocol=1.3&connectionData=%5B%7B%22name%22%3A%22integrationtestshub%22%7D%5D
+http://97.logger.mobi/signalr_v1/updateDeviceTokenV1
+http://97.logger.mobi/signalr_v1/sendLogMailForBasicVersion
+http://97.logger.mobi/signalr/connect?transport=serverSentEvents&connectionToken=
+
+GuestSpy
+http://protocol-a60.guestspy.com/protocols/log_sms_ex.aspx
+http://protocol-a60.guestspy.com/protocols/check_device_registered.aspx?deviceid
+http://protocol-a60.guestspy.com/protocols/setsetting.aspx
+
+LetMeSpy
 
 NetSpy
 https://www.netspy.net/cp/server/insertsmss
@@ -26,9 +39,26 @@ https://www.netspy.net/cp/server/account
 https://www.netspy.net/cp/server/checkdevice
  
 Shadow
+https://www.shadow-logs.com
 https://www.shadow-logs.com/backend/data/submitlogs
 https://www.shadow-logs.com/backend/user/subscription
 https://www.shadow-logs.com/backend/user/login
+https://www.shadow-logs.com/backend/file/uploadgolive
+https://www.shadow-logs.com/backend/file/upload
+	
+Spy Tracker
+http://spy2mobile.com/l
+http://spy2mobile.com/d
+
+[10.0.2.15:32881]
+
+TheTruthSpy
+http://protocol-a810.thetruthspy.com/protocols/setsetting.aspx
+http://protocol-a810.thetruthspy.com/protocols/log_sms_ex.aspx
+http://protocol-a810.thetruthspy.com/protocols/log_sms_ex.aspx
+http://protocol-a810.thetruthspy.com/protocols/log_url.aspx
+http://protocol-a810.thetruthspy.com/protocols/log_url_ex.aspx
+http://protocol-a810.thetruthspy.com/protocols/device_register.aspx
 
 Xnore
 http://xnore.com/fb/?app_id=985ef4f0f6fd72e2
