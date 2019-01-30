@@ -1,0 +1,13 @@
+Catwatchful
+http://catwatchful.com/api/
+http://catwatchful.com/api/?operation=getDeviceEmail&imei=
+http://catwatchful.com/api/?operation=getDeviceProduct&imei=
+http://catwatchful.com/api/?operation=getDeviceStatus&imei=
+http://catwatchful.com/api/?operation=getUsrPassword&email=
+http://catwatchful.com/api/?operation=newData&imei=
+http://catwatchful.com/api/?operation=newDevice&imei=
+http://catwatchful.com/api/?operation=newUser&email=
+http://catwatchful.com/api/?operation=setDeviceName&imei=
+http://catwatchful.com/api/?operation=updateDeviceLastSync&imei=
+http://catwatchful.com/api/?operation=vaciarNewData&imei=
+http://catwatchful.com/api/?operation=getInfo
