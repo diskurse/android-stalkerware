@@ -1,8 +1,10 @@
+## Introduction
+
 This repo is a place to keep the results of my analysis of various types of Android stalkerware.
 
 As I gather more data it will be updated regularly.
 
-Signs your phone may be infected with stalkerware.
+## Signs your phone may be infected with stalkerware.
 
 I've seen a few articles describing simple methods of detecting stalkerware infections on Android phones and they all miss the most obvious method of determining signs of infection, look at the changes to phone settings required by the installation guides of the stalkerware providers themselves.
 
