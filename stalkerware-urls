@@ -11,3 +11,14 @@ http://catwatchful.com/api/?operation=setDeviceName&imei=
 http://catwatchful.com/api/?operation=updateDeviceLastSync&imei=
 http://catwatchful.com/api/?operation=vaciarNewData&imei=
 http://catwatchful.com/api/?operation=getInfo
+
+NetSpy
+https://www.netspy.net/cp/server/insertsmss
+https://www.netspy.net/cp/server/insertgpss
+https://www.netspy.net/cp/server/insertcalls
+https://www.netspy.net/cp/server
+https://www.netspy.net/cp/server/setting
+https://www.netspy.net/cp/server/devicetoken
+https://www.netspy.net/cp/server/account
+https://www.netspy.net/cp/server/checkdevice
+ 
