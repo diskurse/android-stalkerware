@@ -1,1 +1,13 @@
-
+#
+# These rules are experimental, they catch various activities associated with Android stalkerware variants.
+#
+# DNS Requests
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for TheTruthSpy stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0b|thetruthspy|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for Catwatchful stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0b|catwatchful|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for Easy Logger stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|06|logger|04|mobi|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for GuestSpy stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|08|guestspy|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for NetSpy stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|06|netspy|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for Shadow stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0b|shadow-logs|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for Shadow stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0a|shadow-spy|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for Spy To mobile stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0a|spy2mobile|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
+alert udp $HOME_NET any -> any 53 (msg:"DNS request for Xnore stalkerware domain"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|05|xnore|03|com|00|"; fast_pattern; nocase; distance:0; classtype:trojan-activity; sid:xxxx; rev:1;)
