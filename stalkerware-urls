@@ -1,6 +1,20 @@
+AppSpy
+https://appspy.net/cp/server/setting
+https://appspy.net/cp/server/checkdevice
+https://appspy.net/cp/server/account
+https://appspy.net/cp/server/insertsms
+https://appspy.net/cp/server/insertsmss
+https://appspy.net/cp/server/insertcall
+https://appspy.net/cp/server/insertcalls
+https://appspy.net/cp/server/insertgps
+https://appspy.net/cp/server/insertgpss
+https://appspy.net/cp/server
+https://appspy.net/cp/server/devicetoken
 
 Catwatchful
 http://catwatchful.com/api/
+https://catwatchful.com/cp/?usr=
+https://catwatchful.com/main/purchase/?imei=
 http://catwatchful.com/api/?operation=getDeviceEmail&imei=
 http://catwatchful.com/api/?operation=getDeviceProduct&imei=
 http://catwatchful.com/api/?operation=getDeviceStatus&imei=
@@ -14,18 +28,28 @@ http://catwatchful.com/api/?operation=vaciarNewData&imei=
 http://catwatchful.com/api/?operation=getInfo
 
 Easy Logger
+https://account.logger.mobi
+https://account.logger.mobi/buy-phone-tracker/?id=
 http://97.logger.mobi/signalr_v1/checkDeviceRegistration
 http://97.logger.mobi/signalr_v1/saveSettingsNew
 http://97.logger.mobi/auth/token
-http://97.logger.mobi/signalr/negotiate?clientProtocol=1.3&connectionData=%5B%7B%22name%22%3A%22integrationtestshub%22%7D%5D
+http://97.logger.mobi/signalr/negotiate?clientProtocol=1.3&connectionData=
 http://97.logger.mobi/signalr_v1/updateDeviceTokenV1
 http://97.logger.mobi/signalr_v1/sendLogMailForBasicVersion
 http://97.logger.mobi/signalr/connect?transport=serverSentEvents&connectionToken=
+
+Free Android Spy
+https://server.freeandroidspy.com/index.php
 
 GuestSpy
 http://protocol-a60.guestspy.com/protocols/log_sms_ex.aspx
 http://protocol-a60.guestspy.com/protocols/check_device_registered.aspx?deviceid
 http://protocol-a60.guestspy.com/protocols/setsetting.aspx
+http://protocol-a.thetruthspy.com/protocols/getsetting.aspx
+http://protocol-a.thetruthspy.com/protocols/get_synx_now.aspx
+
+iSpyoo
+http://my.ispyoo.com
 
 LetMeSpy
 
@@ -46,14 +70,23 @@ https://www.shadow-logs.com/backend/user/subscription
 https://www.shadow-logs.com/backend/user/login
 https://www.shadow-logs.com/backend/file/uploadgolive
 https://www.shadow-logs.com/backend/file/upload
-	
+https://www.shadow-logs.com/backend/file/download?name=
+
+SpyHuman
+https://apispyhuman.com/v1
+https://apispyhuman.com/v1file
+https://apispyhuman.com/v1file/upload/multipart
+
+Spy Phone App
+http://www.spy-datacenter.com/
+
 Spy Tracker
 http://spy2mobile.com/l
 http://spy2mobile.com/d
 
-[10.0.2.15:32881]
-
 TheTruthSpy
+http://protocol-a.thetruthspy.com/protocols/getsetting.aspx
+http://protocol-a.thetruthspy.com/protocols/get_synx_now.aspx
 http://protocol-a810.thetruthspy.com/protocols/setsetting.aspx
 http://protocol-a810.thetruthspy.com/protocols/log_sms_ex.aspx
 http://protocol-a810.thetruthspy.com/protocols/log_sms_ex.aspx
@@ -61,14 +94,34 @@ http://protocol-a810.thetruthspy.com/protocols/log_url.aspx
 http://protocol-a810.thetruthspy.com/protocols/log_url_ex.aspx
 http://protocol-a810.thetruthspy.com/protocols/device_register.aspx
 
+Track My Phones
+http://onlinefundb.com
+http://trackmyphones.com/cgi-bin/GCM/getHeaders.cgi
+http://trackmyphones.com/cgi-bin/SpyCallRecorder/spycallrecorder.cgi?session=
+http://trackmyphones.com/spyvideo
+http://trackmyphones.com/spyaudio
+http://trackMyPhones.com/spy
+http://trackmyphones.com/trackerApps.html
+http://trackmyphones.com/cgi-bin/GCM/getHeaders.cgi/register
+http://trackmyphones.com/cgi-bin/GCM/getHeaders.cgi/unregister
+http://www.trackmyphones.com/cgi-bin/SpyCallRecorder/ack.cgi
+http://www.trackmyphones.com/cgi-bin/SpyCallRecorder/unreg.cgi
+http://www.trackmyphones.com/cgi-bin/misc/sa.cgi
+http://www.trackmyphones.com/cgi-bin/SpyCallRecorder/ct.cgi
+http://www.trackmyphones.com/cgi-bin/SpyCallRecorder/reg.cgi
+http://www.trackmyphones.com/cgi-bin/SpyCallRecorder/alertEmail.cgi
+http://www.trackmyphones.com/cgi-bin/SpyCallRecorder/chkRequest.cgi
+http://www.trackmyphones.com/cgi-bin/SpyCallRecorder/email.cgi
+
+
 Xnore
-http://xnore.com/fb/?app_id=985ef4f0f6fd72e2
+http://xnore.com/fb/?app_id=
 http://xnore.com/fb/index_files/zD2s5hxu7f4.css
 http://xnore.com/admin/js/jquery-1.11.0.js
 http://xnore.com/fb/logo.png
 http://xnore.com/fb/ajaxPost.php
 http://xnore.com/new_call_sms.php
-http://xnore.com/admin/app_home/?app_id=d25c3eb72257e7d4&manufacturer=unknown&model=Full%20Android%20on%20Emulator&act=
-http://xnore.com/admin/new_cmd.php?id=d25c3eb72257e7d4&Location=No&b=100.0
+http://xnore.com/admin/app_home/?app_id=
+http://xnore.com/admin/new_cmd.php?id=
 http://xnore.com/new_browserHostoryAndContacts.php
-http://xnore.com/admin/new_cmd.php?id=d25c3eb72257e7d4&Location=No&b=100.0
+http://xnore.com/admin/new_cmd.php?id=
