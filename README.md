@@ -32,7 +32,9 @@ While there has been some media attention focused on this emerging phenomenon, s
   <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/the_sun.jpg">
 </p>
 
-I see the stalkerware and state sponsored malware industries occupying the same ecosystem in a putrid, stagnant backwater of infosec, a small pond in which people with no ethical qualms over arming domestic abusers or abusive dictators with the technological means to victimize people can pretend to be big fish.
+Breaches of some of the companies that supply this software have helped reveal the scale of the stalkerware issue, they have tens or hundreds of thousands of registered users, each used representing at minimum one infected device.
+
+I see the stalkerware and state sponsored malware industries occupying the same shady ecosystem in a putrid, stagnant backwater of infosec, a small pond in which people with no ethical qualms over arming domestic abusers or abusive dictators with the technological means to victimize people can pretend to be big fish.
 
 There is actually some evidence to back this up, when stalkerware provider [FlexiSpy was hacked](https://www.randhome.io/blog/2017/04/23/lets-talk-about-flexispy/) a few years ago the resulting leaked data revealed links to Gamma Group, suppliers of state level malware [beloved by human rights violators worldwide](https://www.theregister.co.uk/2015/02/26/oecd_rules_anglogerman_finfisher_spyware_violated_human_rights/).
 
@@ -69,6 +71,12 @@ As you can see this phishing page is not SSL secured, this is another feature of
 </p>
 
 It is important to note that this lack of basic security demonstrates the lack of care taken with victim's data, however switching to encrypted methods of transferring this data would not make these products any less disgusting and unethical.
+
+Insecurity isn't just a feature of the methods these apps use to transfer data, these companies are frequently hacked, their data leaked after breaches.
+
+## What is to be done?
+
+If you have done research relating to stalkerware or have ideas for further research on the subject please get in touch with me.
 
 ## Signs your phone may be infected with stalkerware.
 
