@@ -6,7 +6,9 @@ I currently have no plans to expand into iPhone stalkerware analysis, however al
 
 ## What is 'stalkerware'?
 
-'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. Some however, like 'TheTruthSpy' are very blatant in their marketing, as seen below.
+'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. 
+
+Some however, like 'TheTruthSpy' are very blatant in their marketing, making no attempt to disguise the purpose of their app, as seen below.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/thetruth-multimedia.png">
