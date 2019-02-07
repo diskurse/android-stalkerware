@@ -4,9 +4,13 @@ This repo is a place to keep the results of my analysis of various types of Andr
 
 I currently have no plans to expand into iPhone stalkerware analysis, however almost all of the companies featured here offer iPhone versions of their software which most likely operate in a similar fashion in regards to transmission of data, etc.
 
+As I gather more data repo this will be updated regularly.
+
 ## What is 'stalkerware'?
 
-'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. 
+As we become more and more dependent on smartphones in our everyday existence they become a vast and oftentimes exhaustive  repository of information about us and our lives that are a tempting target for governments and unscrupulous individuals alike.
+
+'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of victim's communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. 
 
 Some however, like 'TheTruthSpy' are very blatant in their marketing, making no attempt to disguise the purpose of their app, as seen below.
 
@@ -22,11 +26,15 @@ Marketing for these services often explicitly appeals to paranoid spouses, looki
 
 My interest in researching stalkerware began last year, after a talk at my local DC44131 meet up by Dan Nash, you can find his talk on stalkerware at [BSides Belfast here](https://www.youtube.com/watch?v=126s8hsuomM).
 
-I see the stalkerware and state sponsored malware industries occupying the same ecosystem in a putrid, stagnant backwater of infosec, a small pond in which people with no ethical qualms over arming abusers or abusive dictators with the technological means to victimize people can pretend to be big fish.
+While there has been some media attention focused on this emerging phenomenon, some very [well written from motherboard](https://motherboard.vice.com/en_us/topic/stalkerware), other sensationalized, there has been relatively very little written about stalkerware from a technical perspective.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/the_sun.jpg">
+</p>
+
+I see the stalkerware and state sponsored malware industries occupying the same ecosystem in a putrid, stagnant backwater of infosec, a small pond in which people with no ethical qualms over arming domestic abusers or abusive dictators with the technological means to victimize people can pretend to be big fish.
 
 There is actually some evidence to back this up, when stalkerware provider [FlexiSpy was hacked](https://www.randhome.io/blog/2017/04/23/lets-talk-about-flexispy/) a few years ago the resulting leaked data revealed links to Gamma Group, suppliers of state level malware [beloved by human rights violators worldwide](https://www.theregister.co.uk/2015/02/26/oecd_rules_anglogerman_finfisher_spyware_violated_human_rights/).
-
-As I gather more data this will be updated regularly.
 
 ## How does stalkerware work?
 
