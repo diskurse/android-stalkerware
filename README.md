@@ -15,7 +15,7 @@ I currently have no plans to expand into iPhone stalkerware analysis, however al
 Marketing for these services often explicitly appeals to paranoid spouses, looking to monetize unhealthy and abusive relationships for financial gain. This, again, from 'TheTruthSpy:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/thetruth-you-wonder.pngg">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/thetruth-you-wonder.png">
 </p>
 
 My interest in researching stalkerware began last year, after a talk at my local DC44131 meet up by Dan Nash, you can find his talk on stalkerware at [BSides Belfast here](https://www.youtube.com/watch?v=126s8hsuomM).
