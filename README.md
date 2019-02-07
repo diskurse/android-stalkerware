@@ -26,6 +26,18 @@ There is actually some evidence to back this up, when stalkerware provider [Flex
 
 As I gather more data this will be updated regularly.
 
+## How does stalkerware work?
+
+I've done some for of analysis, primarily using MARA Framework and DroidBox, of over three dozen variants of Android stalkerware to date. I have my suspicions as to how many of these seemingly different products are in fact created by a much smaller number of companies, either stacking their odds of finding customers by seeming to compete with their own software or to make tracing the flow of cash more difficult. Regardless, there are some similarities across the board.
+
+These apps all require that the person installing them has physical access to the phone to be infected, and the ability to unlock that phone for the purposes of installing the app. These apps all carry with them similar requests for permissions in their AndroidManifest files, the file within the app that among other things defines permissions that the app needs in order to access protected parts of the system or other apps. You can see an example from 'TheTruthSpy' here, most every other stalkerware variant requests much the same permissions.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/androidmanifest.jpg">
+</p>
+
+Most of that is self explanatory, 'GET_ACCOUNTS' allows access to the list of accounts registered to the phone's owner, 'CAMERA' enables the app to covertly take photos or video. 'RECORD_AUDIO' enables eavesdropping (the resulting video and audio files are uploaded to streaming services run by the stalkerware provider in some cases), 'ACCESS_FINE_LOCATION' is particularly worrying in that it enables the app installer to access very precise location data from the victim's phone.
+
 ## Signs your phone may be infected with stalkerware.
 
 I've seen a few articles describing simple methods of detecting stalkerware infections on Android phones and they all miss the most obvious method of determining signs of infection, look at the changes to phone settings required by the installation guides of the stalkerware providers themselves.
