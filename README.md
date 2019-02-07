@@ -2,7 +2,17 @@
 
 This repo is a place to keep the results of my analysis of various types of Android stalkerware.
 
-As I gather more data it will be updated regularly.
+I currently have no plans to expand into iPhone stalkerware analysis, however almost all of the companies featured here offer iPhone versions of their software which most likely operate in a similar fashion in regards to transmission of data, etc.
+
+## What is 'stalkerware'?
+
+My interest in researching stalkerware began last year, after a talk at my local DC44131 meet up by Dan Nash, you can find his talk on stalkerware at [BSides Belfast here](https://www.youtube.com/watch?v=126s8hsuomM).
+
+I see the stalkerware and state sponsored malware industries occupying the same ecosystem in a putrid, stagnant backwater of infosec, a small pond in which people with no ethical qualms over arming abusers or abusive dictators with the technological means to victimize people can pretend to be big fish.
+
+There is actually some evidence to back this up, when stalkerware provider [FlexiSpy was hacked](https://www.randhome.io/blog/2017/04/23/lets-talk-about-flexispy/) a few years ago the resulting leaked data revealed links to Gamma Group, suppliers of state level malware [beloved by human rights violators worldwide](https://www.theregister.co.uk/2015/02/26/oecd_rules_anglogerman_finfisher_spyware_violated_human_rights/).
+
+As I gather more data this will be updated regularly.
 
 ## Signs your phone may be infected with stalkerware.
 
