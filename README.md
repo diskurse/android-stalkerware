@@ -6,6 +6,18 @@ I currently have no plans to expand into iPhone stalkerware analysis, however al
 
 ## What is 'stalkerware'?
 
+'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. Some however, like 'TheTruthSpy' are very blatant in their marketing, as seen below.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/thetruth-multimedia.png">
+</p>
+
+Marketing for these services often explicitly appeals to paranoid spouses, looking to monetize unhealthy and abusive relationships for financial gain. This, again, from 'TheTruthSpy:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/thetruth-you-wonder.pngg">
+</p>
+
 My interest in researching stalkerware began last year, after a talk at my local DC44131 meet up by Dan Nash, you can find his talk on stalkerware at [BSides Belfast here](https://www.youtube.com/watch?v=126s8hsuomM).
 
 I see the stalkerware and state sponsored malware industries occupying the same ecosystem in a putrid, stagnant backwater of infosec, a small pond in which people with no ethical qualms over arming abusers or abusive dictators with the technological means to victimize people can pretend to be big fish.
