@@ -86,7 +86,9 @@ As you can see this phishing page is not SSL secured, this is another feature of
 
 It is important to note that this lack of basic security demonstrates the lack of care taken with victim's data, however switching to encrypted methods of transferring this data would not make these products any less disgusting and unethical.
 
-Insecurity isn't just a feature of the methods these apps use to transfer data, these companies are frequently hacked, their data leaked after breaches.
+These apps generally rely on outdated and insecure methods of obscuring or encrypting data, Base64 encoding, MD5 encryption and when SSL is used certificate pinning to thwart MiTM attacks is generally not implemented.
+
+Insecurity isn't just a feature of the methods these apps use to transfer data, these companies themselves are frequently hacked, their data subsequently leaked after breaches.
 
 'Retina-X' [shut down completely](https://boingboing.net/2018/03/06/precise-buffalo-triumphant.html) after two breaches, 'Mobistealth' and 'Spy Master Pro' were both [hacked by an anonymous individual](https://motherboard.vice.com/en_us/article/7x77ex/hacker-strikes-stalkerware-companies-stealing-alleged-texts-and-gps-locations-of-customers), with data leaked, as mentioned before 'FlexiSpy' was [hacked and leaked](https://www.theregister.co.uk/2017/04/25/hackers_attack_stalkerware_flexispy/), 'Xnore' had a [breach of customer data](https://motherboard.vice.com/en_us/article/pa97g7/xnore-copy9-stalkerware-data-breach-thousands-victims) because of a website configuration error, the list goes on and on.
 
