@@ -14,6 +14,12 @@ As we become more and more dependent on smartphones in our everyday existence th
 
 'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of victim's communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. 
 
+Some of these apps also enable the user to send SMS messages from the victim's phone, add logged phone call records to the device's call log, or upload files to the victim's device.
+
+<p align="center">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/flexispy-spoof.gif">
+</p>
+
 As long ago as 2014 it was [reported by NPR that of 70 domestic violence shelters they surveyed](https://www.npr.org/sections/alltechconsidered/2014/09/15/346149979/smartphones-are-used-to-stalk-control-domestic-abuse-victims?t=1549627516410), "85 percent of the shelters we surveyed say they're working directly with victims whose abusers tracked them using GPS. Seventy-five percent say they're working with victims whose abusers eavesdropped on their conversation remotely — using hidden mobile apps."
 
 While many of the providers of these apps have modified their marketing techniques, some however, like 'TheTruthSpy' are unrepentantly blatant in their marketing, making no attempt to disguise the sinister purpose of their app.
