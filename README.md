@@ -2,6 +2,8 @@
 
 This repo is a place to keep the results of my analysis of various types of Android stalkerware.
 
+This research is a result of my personal revulsion at the industry that has formed around enabling people to spy on their spouses, their children and their co-workers, profiting off of some of the worst, most paranoid impulses that humans can have is morally reprehensible and in many instances a violation of the law.
+
 I currently have no plans to expand into iPhone stalkerware analysis, however almost all of the companies featured here offer iPhone versions of their software which most likely operate in a similar fashion in regards to transmission of data, etc.
 
 As I gather more data repo this will be updated regularly.
@@ -12,7 +14,9 @@ As we become more and more dependent on smartphones in our everyday existence th
 
 'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of victim's communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. 
 
-Some however, like 'TheTruthSpy' are very blatant in their marketing, making no attempt to disguise the purpose of their app, as seen below.
+As long ago as 2014 it was [reported by NPR that of 70 domestic violence shelters they surveyed](https://www.npr.org/sections/alltechconsidered/2014/09/15/346149979/smartphones-are-used-to-stalk-control-domestic-abuse-victims?t=1549627516410), "85 percent of the shelters we surveyed say they're working directly with victims whose abusers tracked them using GPS. Seventy-five percent say they're working with victims whose abusers eavesdropped on their conversation remotely — using hidden mobile apps."
+
+While many of the providers of these apps have modified their marketing techniques, some however, like 'TheTruthSpy' are unrepentantly blatant in their marketing, making no attempt to disguise the sinister purpose of their app.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/thetruth-multimedia.png">
