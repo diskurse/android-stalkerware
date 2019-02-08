@@ -44,7 +44,9 @@ I've done some form of analysis, primarily using [MARA Framework](https://github
 
 I have my suspicions as to how many of these seemingly different products are in fact created by a much smaller number of companies, either stacking their odds of finding customers by seeming to compete with their own software or to make tracing the flow of cash more difficult. 
 
-Regardless, there are some similarities across the board.
+There is, once again, some evidence to support this, whether in code reuse between apps, different apps using the same webhosting companies, app providers reselling or linking to each other's services and in the data that has been leaked from breaches of stalkerware providers. When 'Retina-X' was hacked and [went out of business](https://motherboard.vice.com/en_us/article/neqgn8/retina-x-spyware-shuts-down-apps) it was revealed that the company was responsible for the creation and marketing of multiple apps, 'Mobile Spy', 'PhoneSheriff', 'TeenShield', 'NetOrbit' and 'SniperSpy'.
+
+Regardless of who is behind the various stalkerware apps, there are some similarities across the board.
 
 These apps all require that the person installing them has physical access to the phone to be infected, and the ability to unlock that phone for the purposes of installing the app. These apps all carry with them similar requests for permissions in their AndroidManifest files, the file within the app that among other things defines permissions that the app needs in order to access protected parts of the system or other apps. 
 
@@ -56,9 +58,17 @@ You can see an example from 'TheTruthSpy' here, most every other stalkerware var
 
 Most of that is self explanatory, 'GET_ACCOUNTS' allows access to the list of accounts registered to the phone's owner, 'CAMERA' enables the app to covertly take photos or video. 'RECORD_AUDIO' enables eavesdropping (the resulting video and audio files are uploaded to streaming services run by the stalkerware provider in some cases), 'ACCESS_FINE_LOCATION' is particularly worrying in that it enables the app installer to access very precise location data from the victim's phone.
 
-Also similarly across the board, almost every stalkerware provider uses a mixture of legitimate infrastructure and their own sort of homebrew framework for exfiltrating data from victim's devices. Most of these apps are unable to get, or keep, a place in Google's Play Store, so they must rely on hosting their own apps (and as shown below make changes to devices to enable them to work), many of them avail themselves of services like Crashlytics, Firebase and lesser known equivalents.
+Also similarly across the board, almost every stalkerware provider uses a mixture of legitimate infrastructure and their own sort of homebrew framework for exfiltrating data from victim's devices, hosted on their own servers. 
 
-While they use legitimate services to provide complex infrastructure these providers still use traditional malware techniques, for instance 'Xnore' hosts a Facebook phishing login which redirects Facebook traffic from a victim's device and then relays the login and password to whoever installed the stalkerware.
+Most of these apps are unable to get, or keep, a place in Google's Play Store, so they must rely on hosting their own apps (and as shown below require that users make changes to device's settings to enable them to work), many of them avail themselves of services like Crashlytics, Firebase and lesser known equivalents.
+
+Almost all of these services use 'Secure Android ID' as an identifier for victim's devices, it is a 64-bit number that is generated randomly when the Android device is first booted. Stalkerware services render this 64-bit ID number as a 16 character hex string, as seen here.
+
+<p align="center">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/setting-up.jpg">
+</p>
+
+While they use some legitimate services to provide complex infrastructure these providers still use traditional malware techniques, for instance 'Xnore' hosts a Facebook phishing login which redirects Facebook traffic from a victim's device and then relays the login and password to whoever installed the stalkerware.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/facebook-phish.jpg">
@@ -73,6 +83,14 @@ As you can see this phishing page is not SSL secured, this is another feature of
 It is important to note that this lack of basic security demonstrates the lack of care taken with victim's data, however switching to encrypted methods of transferring this data would not make these products any less disgusting and unethical.
 
 Insecurity isn't just a feature of the methods these apps use to transfer data, these companies are frequently hacked, their data leaked after breaches.
+
+'Retina-X' [shut down completely](https://boingboing.net/2018/03/06/precise-buffalo-triumphant.html) after two breaches, 'Mobistealth' and 'Spy Master Pro' were both [hacked by an anonymous individual](https://motherboard.vice.com/en_us/article/7x77ex/hacker-strikes-stalkerware-companies-stealing-alleged-texts-and-gps-locations-of-customers), with data leaked, as mentioned before 'FlexiSpy' was [hacked and leaked](https://www.theregister.co.uk/2017/04/25/hackers_attack_stalkerware_flexispy/), 'Xnore' had a [breach of customer data](https://motherboard.vice.com/en_us/article/pa97g7/xnore-copy9-stalkerware-data-breach-thousands-victims) because of a website configuration error, the list goes on and on.
+
+<p align="center">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/phonesheriff.gif">
+</p>
+
+If you use these services you risk the discovery of your actions and the communications of the people you are spying upon as these companies are not secure and do not seem to prioritize the security of their users or the victims of their users.
 
 ## What is to be done?
 
