@@ -68,7 +68,15 @@ You can see an example from 'TheTruthSpy' here, most every other stalkerware var
 
 Most of that is self explanatory, 'GET_ACCOUNTS' allows access to the list of accounts registered to the phone's owner, 'CAMERA' enables the app to covertly take photos or video. 'RECORD_AUDIO' enables eavesdropping (the resulting video and audio files are uploaded to streaming services run by the stalkerware provider in some cases), 'ACCESS_FINE_LOCATION' is particularly worrying in that it enables the app installer to access very precise location data from the victim's phone.
 
-Also similarly across the board, almost every stalkerware provider uses a mixture of legitimate infrastructure and their own sort of homebrew framework for exfiltrating data from victim's devices, hosted on their own servers. 
+I have mapped GPS data from 250 infected devices taken from a leaked stalkerware provider database here, to give some idea of the global scope of the issue, this is a screenshot as the actual data allowed for pinpointing location down to addresses.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/gps-data.jpg">
+</p>
+
+Across the board, almost every stalkerware provider uses a mixture of legitimate infrastructure and their own sort of homebrew framework for exfiltrating data from victim's devices, hosted on their own servers. 
+
+<img align="right" sc="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/dashboard.jpg">Devices transmit data back to various scripts running on a subdomain or the main site, these scripts pass the data to a database which stores the victim's information and makes it available to the stalker via a web (or sometimes app based) dashboard.
 
 Most of these apps are unable to get, or keep, a place in Google's Play Store, so they must rely on hosting their own apps (and as shown below require that users make changes to device's settings to enable them to work), many of them avail themselves of services like Crashlytics, Firebase and lesser known equivalents.
 
@@ -106,7 +114,17 @@ If you use these services you risk the discovery of your actions and the communi
 
 ## What is to be done?
 
-If you have done research relating to stalkerware or have ideas for further research on the subject please get in touch with me.
+If you have done research relating to stalkerware or have ideas for further research or action on the subject please get in touch with me.
+
+Having thought about this a fair amount I can see three ways that stalkerware can be dealt with, minus the involvement of law enforcement or lawyers.
+
+Firstly training, or providing resources, for people who are on the front lines of working with survivors of domestic abuse to pick up on, and handle, signs of stalkerware infections. As I note below a lot of the guides for detecting stalkerware online miss a lot of the obvious tell tale indications, the more informed people in general, and specifically people who have to deal with the direct results of this software, are the better.
+
+Secondly technical solutions such as ensuring that the various app files are added to virus signature databases and creating network signatures for IDS like Snort. I'll freely admit that this is the weakest of the three, thoughts on this are welcome.
+
+Finally, and this I think can be really very successful, the various companies that produce and market stalkerware do so because it is profitable. To sell their products they need to accept payments somehow and as the various methods of accepting payments come with restrictive terms of service that tend to frown rather heavily on hacking and domestic violence, drawing attention to the imagery and language used to sell stalkerware should result in their accounts being suspended. 
+
+To see just how effective this can be check out [this fantastic article from Motherboard](https://motherboard.vice.com/en_us/article/7xnwa9/paypal-payments-stalkerware-software-abusive-partners), in which the authors question PayPal about their association with 'hellospy'. Cutting off revenue doesn't deal with the underlying problems that fuel the market for these services but it will reduce their appeal for producers as easy money.
 
 ## Signs your phone may be infected with stalkerware.
 
