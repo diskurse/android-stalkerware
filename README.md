@@ -129,7 +129,7 @@ To see just how effective this can be check out [this fantastic article from Mot
 Legal avenues work too, arrests are few and far between but they are effective.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/stealthgenie-arrest.jpg">
+  <img  width="336" height="213" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/stealthgenie-arrest.jpg">
 </p>
 
 ## Signs your phone may be infected with stalkerware.
