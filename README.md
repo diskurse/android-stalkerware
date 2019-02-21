@@ -76,7 +76,7 @@ I have mapped GPS data from 250 infected devices taken from a leaked stalkerware
 
 Across the board, almost every stalkerware provider uses a mixture of legitimate infrastructure and their own sort of homebrew framework for exfiltrating data from victim's devices, hosted on their own servers. 
 
-<img align="right" sc="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/dashboard.jpg">Devices transmit data back to various scripts running on a subdomain or the main site, these scripts pass the data to a database which stores the victim's information and makes it available to the stalker via a web (or sometimes app based) dashboard.
+<img align="right" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/dashboard.jpg">Devices transmit data back to various scripts running on a subdomain or the main site, these scripts pass the data to a database which stores the victim's information and makes it available to the stalker via a web (or sometimes app based) dashboard.
 
 Most of these apps are unable to get, or keep, a place in Google's Play Store, so they must rely on hosting their own apps (and as shown below require that users make changes to device's settings to enable them to work), many of them avail themselves of services like Crashlytics, Firebase and lesser known equivalents.
 
@@ -125,6 +125,12 @@ Secondly technical solutions such as ensuring that the various app files are add
 Finally, and this I think can be really very successful, the various companies that produce and market stalkerware do so because it is profitable. To sell their products they need to accept payments somehow and as the various methods of accepting payments come with restrictive terms of service that tend to frown rather heavily on hacking and domestic violence, drawing attention to the imagery and language used to sell stalkerware should result in their accounts being suspended. 
 
 To see just how effective this can be check out [this fantastic article from Motherboard](https://motherboard.vice.com/en_us/article/7xnwa9/paypal-payments-stalkerware-software-abusive-partners), in which the authors question PayPal about their association with 'hellospy'. Cutting off revenue doesn't deal with the underlying problems that fuel the market for these services but it will reduce their appeal for producers as easy money.
+
+Legal avenues work too, arrests are few and far between but they are effective.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/stealthgenie-arrest.jpg">
+</p>
 
 ## Signs your phone may be infected with stalkerware.
 
