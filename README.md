@@ -148,7 +148,7 @@ Finally, and this I think can be really very successful, the various companies t
 
 To see just how effective this can be check out [this fantastic article from Motherboard](https://motherboard.vice.com/en_us/article/7xnwa9/paypal-payments-stalkerware-software-abusive-partners), in which the authors question PayPal about their association with 'hellospy'. Cutting off revenue doesn't deal with the underlying problems that fuel the market for these services but it will reduce their appeal for producers as easy money.
 
-Legal avenues work too, arrests for selling stalkerware are few and far between but they can be a formidable deterrent.
+Legal avenues work too, [arrests for selling stalkerware are few and far between](https://www.justice.gov/opa/pr/man-pleads-guilty-selling-stealthgenie-spyware-app-and-ordered-pay-500000-fine) but they can be a formidable deterrent.
 
 <p align="center">
   <img  width="336" height="213" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/stealthgenie-arrest.jpg">
