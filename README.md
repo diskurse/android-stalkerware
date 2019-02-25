@@ -32,7 +32,7 @@ A paper that helped solidify and frame the questions I found myself asking is [E
 
 As we become more and more dependent on smartphones in our everyday existence they become a vast and oftentimes exhaustive  repository of information about us and our lives that are a tempting target for governments and unscrupulous individuals alike.
 
-'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of victim's communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. 
+'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate on mobile devices to enable the collection and monitoring of victim's communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. THese apps are also placed under the umbrella term "intimate partner surveillance" or IPS.
 
 Some of these apps also enable the user to send SMS messages from the victim's phone, add logged phone call records to the device's call log, or upload files to the victim's device.
 
@@ -66,7 +66,9 @@ Breaches of some of the companies that supply this software have helped reveal t
 
 I see the stalkerware and state sponsored malware industries occupying the same shady ecosystem in a putrid, stagnant backwater of infosec, a small pond in which people with no ethical qualms over arming domestic abusers or abusive dictators with the technological means to victimize people can pretend to be big fish.
 
-There is actually some evidence to back this up, when stalkerware provider [FlexiSpy was hacked](https://www.randhome.io/blog/2017/04/23/lets-talk-about-flexispy/) a few years ago the resulting leaked data revealed links to Gamma Group, suppliers of state level malware [beloved by human rights violators worldwide](https://www.theregister.co.uk/2015/02/26/oecd_rules_anglogerman_finfisher_spyware_violated_human_rights/).
+<img align="right" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube.jpg">There is actually some evidence to back this up, when stalkerware provider [FlexiSpy was hacked](https://www.randhome.io/blog/2017/04/23/lets-talk-about-flexispy/) a few years ago the resulting leaked data revealed links to Gamma Group, suppliers of state level malware [beloved by human rights violators worldwide](https://www.theregister.co.uk/2015/02/26/oecd_rules_anglogerman_finfisher_spyware_violated_human_rights/).
+
+People find these apps via Google, the Play Store and Apple’s App Store but there are also blogs, review sites that make referral commissions and a flourishing scene on YouTube promoting the various apps and their installation.
 
 ## How does stalkerware work?
 
