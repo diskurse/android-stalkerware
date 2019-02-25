@@ -1,8 +1,11 @@
-[Introduction](#introduction)
+  - [Introduction](#introduction)
+  - [Ethical considerations.](#ethical-considerations)
+  - [What is 'stalkerware'?](#what-is-stalkerware)
+  - [How does stalkerware work?](#how-does-stalkerware-work)
+  - [What is to be done?](#what-is-to-be-done)
+  - [Signs your phone may be infected with stalkerware.](#signs-your-phone-may-be-infected-with-stalkerware)
 
-[Ethical Considerations](#ethical-considerations)
-
-##Introduction
+## Introduction
 
 This repo is a place to keep the results of my analysis of various types of Android stalkerware.
 
@@ -13,7 +16,7 @@ I currently have no plans to expand into iPhone stalkerware analysis, however al
 As I gather more data repo this will be updated regularly.
 
 
-##Ethical considerations.
+## Ethical considerations.
 
 In undertaking this research I have become really painfully aware of the genuine ethical issues that accompany investigating this area. Victims of stalkerware have already been harmed by the installation of the software, probably by someone close to them, and the invasion of their privacy, their intimate moments have been recorded and shared without their knowledge. It is important that in trying to combat this threat we do not inadvertantly make it worse.
 
