@@ -1,4 +1,7 @@
-## Introduction
+[Introduction](#introduction)
+[Ethical Considerations](#ethical-considerations)
+
+##Introduction
 
 This repo is a place to keep the results of my analysis of various types of Android stalkerware.
 
@@ -7,6 +10,17 @@ This research is a result of my personal revulsion at the industry that has form
 I currently have no plans to expand into iPhone stalkerware analysis, however almost all of the companies featured here offer iPhone versions of their software which most likely operate in a similar fashion in regards to transmission of data, etc.
 
 As I gather more data repo this will be updated regularly.
+
+
+##Ethical considerations.
+
+In undertaking this research I have become really painfully aware of the genuine ethical issues that accompany investigating this area. Victims of stalkerware have already been harmed by the installation of the software, probably by someone close to them, and the invasion of their privacy, their intimate moments have been recorded and shared without their knowledge. It is important that in trying to combat this threat we do not inadvertantly make it worse.
+
+Examining data leaks for this research I have stumbled across screenshots of phone calls to child protective services, private family photos, WhatsApp chats, fine location GPS data that enabled me to see people's home addresses. The incredibly personal nature of this data is what makes stalkerware so insidious and also what makes researching it a balancing act. 
+
+If you decide to post data from your findings be aware of the need to consider the wellbeing and privacy of the victims and also be very wary of posting code that might enable other people to easily replicate these services. The apks themselves are obviously already out there, but the back ends to these sites are potentially dangerous in the wrong hands. 
+
+A paper that helped solidify and frame the questions I found myself asking is [Ethical issues in research using datasets of illicit origin](https://www.cl.cam.ac.uk/~sp849/files/IMC_2017-ethical-issues.pdf), recommended reading.
 
 ## What is 'stalkerware'?
 
