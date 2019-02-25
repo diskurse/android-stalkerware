@@ -1,9 +1,9 @@
-  - [Introduction](#introduction)
-  - [Ethical considerations.](#ethical-considerations)
-  - [What is 'stalkerware'?](#what-is-stalkerware)
-  - [How does stalkerware work?](#how-does-stalkerware-work)
-  - [What is to be done?](#what-is-to-be-done)
-  - [Signs your phone may be infected with stalkerware.](#signs-your-phone-may-be-infected-with-stalkerware)
+  + [Introduction](#introduction)
+  + [Ethical considerations.](#ethical-considerations)
+  + [What is 'stalkerware'?](#what-is-stalkerware)
+  + [How does stalkerware work?](#how-does-stalkerware-work)
+  + [What is to be done?](#what-is-to-be-done)
+  + [Signs of infection.](#signs-your-phone-may-be-infected-with-stalkerware)
 
 ## Introduction
 
@@ -18,7 +18,9 @@ As I gather more data repo this will be updated regularly.
 
 ## Ethical considerations.
 
-In undertaking this research I have become really painfully aware of the genuine ethical issues that accompany investigating this area. Victims of stalkerware have already been harmed by the installation of the software, probably by someone close to them, and the invasion of their privacy, their intimate moments have been recorded and shared without their knowledge. It is important that in trying to combat this threat we do not inadvertantly make it worse.
+In undertaking this research I have become really painfully aware of the genuine ethical issues that accompany investigating this subject. Victims of stalkerware have already been harmed by the installation of the software, probably by someone close to them, and the invasion of their privacy, their intimate moments have been recorded and shared without their knowledge. It is important that in trying to combat this threat we do not inadvertantly make it worse.
+
+As these apps are designed to collect every scrap of information from devices, from Facebook to contacts, URLs visited and photos taken, leaks are almost uniquely damaging for victims.
 
 Examining data leaks for this research I have stumbled across screenshots of phone calls to child protective services, private family photos, WhatsApp chats, fine location GPS data that enabled me to see people's home addresses. The incredibly personal nature of this data is what makes stalkerware so insidious and also what makes researching it a balancing act. 
 
@@ -54,7 +56,7 @@ Marketing for these services often explicitly appeals to paranoid spouses, looki
 
 My interest in researching stalkerware began last year, after a talk at my local DC44131 meet up by Dan Nash, you can find his talk on stalkerware at [BSides Belfast here](https://www.youtube.com/watch?v=126s8hsuomM).
 
-While there has been some media attention focused on this emerging phenomenon, some very [well written from motherboard](https://motherboard.vice.com/en_us/topic/stalkerware), other sensationalized, there has been relatively very little written about stalkerware from a technical perspective.
+While there has been some media attention focused on this emerging phenomenon, some very [well written from motherboard](https://motherboard.vice.com/en_us/topic/stalkerware), other sensationalized like below, there has been relatively very little written about stalkerware from a technical perspective.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/the_sun.jpg">
@@ -150,7 +152,7 @@ Legal avenues work too, arrests for selling stalkerware are few and far between 
   <img  width="336" height="213" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/stealthgenie-arrest.jpg">
 </p>
 
-## Signs your phone may be infected with stalkerware.
+## Signs of infection.
 
 I've seen a few articles describing simple methods of detecting stalkerware infections on Android phones and they all miss the most obvious method of determining signs of infection, look at the changes to phone settings required by the installation guides of the stalkerware providers themselves.
 
