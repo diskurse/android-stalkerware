@@ -2,7 +2,7 @@
 
 [Ethical Considerations](#ethical-considerations)
 
-#Introduction
+##Introduction
 
 This repo is a place to keep the results of my analysis of various types of Android stalkerware.
 
