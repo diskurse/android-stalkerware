@@ -22,7 +22,7 @@ In undertaking this research I have become really painfully aware of the genuine
 
 As these apps are designed to collect every scrap of information from devices, from Facebook to contacts, URLs visited and photos taken, leaks are almost uniquely damaging for victims.
 
-Examining data leaks for this research I have stumbled across screenshots of phone calls to child protective services, private family photos, WhatsApp chats, fine location GPS data that enabled me to see people's home addresses. The incredibly personal nature of this data is what makes stalkerware so insidious and also what makes researching it a balancing act. 
+Examining data leaks for this research I have stumbled across screenshots of phone calls to child protective services, private family photos, WhatsApp chats and fine location GPS data that enabled me to see people's home addresses. The incredibly personal nature of this data is what makes stalkerware so insidious and also what makes researching it a balancing act. 
 
 If you decide to post data from your findings be aware of the need to consider the wellbeing and privacy of the victims and also be very wary of posting code that might enable other people to easily replicate these services. The apks themselves are obviously already out there, but the back ends to these sites are potentially dangerous in the wrong hands. 
 
@@ -32,7 +32,7 @@ A paper that helped solidify and frame the questions I found myself asking is [E
 
 As we become more and more dependent on smartphones in our everyday existence they become a vast and oftentimes exhaustive  repository of information about us and our lives that are a tempting target for governments and unscrupulous individuals alike.
 
-'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate covertly on mobile devices to enable the collection and monitoring of victim's communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. These apps are also sometimes placed under the umbrella term "intimate partner surveillance" or IPS. "[The Spyware Used in Intimate Partner Violence](https://www.ipvtechresearch.org/pubs/spyware.pdf)" is an excellent paper on the marketing off stalkerware and the efficiency of various methods of detecting it.
+'Stalkerware' is the term that has been coined for consumer level malware that is generally targeted at specific people and built to operate covertly on mobile devices to enable the collection and monitoring of victim's communications and data. The word 'stalker' is used because this software is linked to domestic violence, although the providers of the apps themselves will frequently attempt to brand their products as "child safety monitoring" or "employee monitoring" tools. These apps are also sometimes placed under the umbrella term "intimate partner surveillance" or IPS. "[The Spyware Used in Intimate Partner Violence](https://www.ipvtechresearch.org/pubs/spyware.pdf)" is an excellent paper on the marketing of stalkerware and the efficiency of various methods of detecting it.
 
 Some of these apps also enable the user to send SMS messages from the victim's phone, add logged phone call records to the device's call log, or upload files to the victim's device.
 
