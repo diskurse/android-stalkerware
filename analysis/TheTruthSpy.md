@@ -2,7 +2,7 @@
 
 This will be an indepth look at what happens immediately after installation of 'TheTruthSpy', both on the Android phone itself and over the network.
 
-Imeediately after the apk installation the app contacts the control server and transmits the 16 character hex value of the device's 'Secure Android ID'. 'Secure Android ID' is used by TheTruthSpy as an identifier for victim's devices, it is a 64-bit number that is generated randomly when the Android device is first booted. 
+Immediately after the apk installation the app contacts the control server and transmits the 16 character hex value of the device's 'Secure Android ID'. 'Secure Android ID' is used by TheTruthSpy as an identifier for victim's devices, it is a 64-bit number that is generated randomly when the Android device is first booted. 
 
 Below we can see this initial request and the response that the deviceid is not currently registered with TheTruthSpy.
 
