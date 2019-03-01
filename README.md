@@ -4,6 +4,7 @@
   + [How does stalkerware work?](#how-does-stalkerware-work)
   + [What is to be done?](#what-is-to-be-done)
   + [Signs of infection.](#signs-your-phone-may-be-infected-with-stalkerware)
+  + [Further reading](#further-reading)
 
 ## Introduction
 
@@ -169,3 +170,8 @@ I'm including three screenshots from stalkerware installation made by one of the
 Lastly many of the stalkerware apps require device administrator access, this enables the app to more fully monitor data on your phone. You can check which apps have device administrator access by accessing your security settings and checking "Device Administrators" or sometimes "Phone Administrators", this will provide you with a list of apps with this access. <img align="right" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/conclusion-administrator.jpg">Bear in mind that stalkerware companies will frequently name their software services with innocuous sounding names like "system.service" or "WiFiService". 
 
 If you are in any doubt I would suggest installing one of the various Android antivirus products and performing a full scan of your phone.
+
+## Further reading
+
++ [The Spyware Used in Intimate Partner Violence](https://www.ipvtechresearch.org/pubs/spyware.pdf)(2018)
++ [Commercial Spyware-Detecting the Undetectable](https://www.blackhat.com/docs/us-15/materials/us-15-Dalman-Commercial-Spyware-Detecting-The-Undetectable.pdf) (2015)
