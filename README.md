@@ -1,9 +1,9 @@
   + [Introduction](#introduction)
-  + [Ethical considerations.](#ethical-considerations)
+  + [Ethical considerations](#ethical-considerations)
   + [What is 'stalkerware'?](#what-is-stalkerware)
   + [How does stalkerware work?](#how-does-stalkerware-work)
+  + [Signs of infection](#signs-your-phone-may-be-infected-with-stalkerware)
   + [What is to be done?](#what-is-to-be-done)
-  + [Signs of infection.](#signs-your-phone-may-be-infected-with-stalkerware)
   + [Further reading](#further-reading)
 
 ## Introduction
