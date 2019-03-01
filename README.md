@@ -174,5 +174,6 @@ If you are in any doubt I would suggest installing one of the various Android an
 ## Further reading
 
 + [The Spyware Used in Intimate Partner Violence](https://www.ipvtechresearch.org/pubs/spyware.pdf)(2018)
-+ [Commercial Spyware-Detecting the Undetectable](https://www.blackhat.com/docs/us-15/materials/us-15-Dalman-Commercial-Spyware-Detecting-The-Undetectable.pdf) (2015)
++ [Motherboard - Domestic Surveillance](https://soundcloud.com/motherboard/domestic-surveillance)(2018)
++ [Commercial Spyware - Detecting the Undetectable](https://www.blackhat.com/docs/us-15/materials/us-15-Dalman-Commercial-Spyware-Detecting-The-Undetectable.pdf) (2015)
 + [Spy vs. Spy: Examining spyware on mobile devices](https://www.defcon.org/images/defcon-20/dc-20-presentations/Robinson/DEFCON-20-Robinson-Spy-vs-Spy.pdf)(2012)
