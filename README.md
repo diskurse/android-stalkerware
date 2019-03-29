@@ -1,6 +1,7 @@
   + [Introduction](#introduction)
   + [Ethical considerations](#ethical-considerations)
   + [What is 'stalkerware'?](#what-is-stalkerware)
+  + [What are 'dual use' apps?](#what-are-dual-use-apps?)
   + [How does stalkerware work?](#how-does-stalkerware-work)
   + [Signs of infection](#signs-your-phone-may-be-infected-with-stalkerware)
   + [What is to be done?](#what-is-to-be-done)
@@ -70,6 +71,8 @@ Breaches of some of the companies that supply this software have helped reveal t
 There is actually some evidence to back this up, when stalkerware provider [FlexiSpy was hacked](https://www.randhome.io/blog/2017/04/23/lets-talk-about-flexispy/) a few years ago the resulting leaked data revealed links to Gamma Group, suppliers of state level malware [beloved by human rights violators worldwide](https://www.theregister.co.uk/2015/02/26/oecd_rules_anglogerman_finfisher_spyware_violated_human_rights/).
 
 People find these apps via Google, the Play Store and Apple’s App Store but there are also blogs, review sites that make referral commissions and a flourishing scene on YouTube promoting the various apps and their installation.
+
+## What are 'dual use' apps?
 
 ## How does stalkerware work?
 
