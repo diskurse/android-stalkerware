@@ -24,7 +24,7 @@ In undertaking this research I have become really painfully aware of the genuine
 
 As these apps are designed to collect every scrap of information from devices, from Facebook to contacts, URLs visited and photos taken, leaks are almost uniquely damaging for victims.
 
-Examining data leaks for this research I have stumbled across screenshots of phone calls to child protective services, private family photos, WhatsApp chats and fine location GPS data that enabled me to see people's home addresses. The incredibly personal nature of this data is what makes stalkerware so insidious and also what makes researching it a balancing act. 
+Examining data leaks for this research I have stumbled across screenshots of phone calls to child protective services, private family photos, WhatsApp chats and fine location GPS data that enabled me to see people's precise home addresses. The incredibly personal nature of this data is what makes stalkerware so insidious and also what makes researching it a balancing act. 
 
 If you decide to post data from your findings be aware of the need to consider the wellbeing and privacy of the victims and also be very wary of posting code that might enable other people to easily replicate these services. The apks themselves are obviously already out there, but the back ends to these sites are potentially dangerous in the wrong hands. 
 
@@ -73,6 +73,26 @@ There is actually some evidence to back this up, when stalkerware provider [Flex
 People find these apps via Google, the Play Store and Apple’s App Store but there are also blogs, review sites that make referral commissions and a flourishing scene on YouTube promoting the various apps and their installation.
 
 ## What are 'dual use' apps?
+
+While most stalkerware companies market directly to consumers through their own websites because of increasing restrictions on what is allowed in the Play Store there are some companies that have found a middle ground between enabling features that could aid in stalking and following Google's rules. The apps that these companies develop and distribute through the Play Store can thus be called 'dual use', they have potential legitimate and legal uses but are also attractive to people wanting to use them to enable illegal surveillance of devices.
+
+Primarily what seems to distinguish these apps from their less legal counterparts, at least in the eyes of Google, is that they do not enable the concealment of the app and its icon from the list of running processes.
+
+Two examples of these kinds of apps are 'Trackview' and 'Track My Phone Pro', both are available in the official Play Store and both support features that make them in many ways indistinguishable from apps that market themselves to paranoid spouses.
+
+'Track My Phone Pro' states that "you can get the location of your mobile, make siren play loud, send a message to your mobile, call a number, enable or disable mobile data, make it vibrate for 5 sec, and even take pic remotely and email pics to your email ID. All this you can do even when your mobile is not with you." From the Play Store page for Trackview the developers describe how the software "turns your smartphones, tablets and PCs into a connected IP camera with GPS locator, event detection, alert and cloud/route recording capabilities".
+
+In the case of 'Track My Phone Pro' the app's developer attaches this statement to the Play Store page.
+
+<p align="center">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/aaaaaaaaaaaaaaaaaaaaaaaaaaa.jpg?raw=true">
+</p>
+
+However the comments for the app show that many users are under no illusion as to how the app can be used.
+
+<p align="center">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/aaaaaaaaaaaaaaaaaaaaa.jpg?raw=true">
+</p>
 
 ## How does stalkerware work?
 
