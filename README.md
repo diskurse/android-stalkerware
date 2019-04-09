@@ -9,6 +9,12 @@
 
 ## Introduction
 
+In 2017 [Rasheeda Johnson Turner was arrested in Los Angeles for hiring a hitman to kill her boyfriend](http://www.documentcloud.org/documents/4355810-Rasheeda-Johnson-Turner-criminal-complaint.html) in order to cash in on his life insurance policy, she had installed monitoring software on her boyfriend's phone so that she could inform the hitman of his movements. Last year during the trial of drug cartel boss Joaquín “El Chapo” Guzmán it emerged that [he had installed the "FlexiSpy" stalkerware app on 50 "special phones"](https://www.theatlantic.com/technology/archive/2019/01/fbi-used-el-chapos-own-spies-against-him/580324/) as he called them, which he gave to his inner circle so that he could monitor their communications unbeknownst to them. 
+
+Kristin Newell Nyunt pled guilty in 2014 to [two counts of wiretapping](https://eu.thecalifornian.com/story/news/local/2014/11/11/ex-wife-former-pg-police-commander-pleads-guilty/18855781/) for installing "Mobistealth, StealthGenie and mSpy, on a police officer’s cell phone in an attempt to gather sensitive law enforcement information" In 2011 Lisa Harnum was [thrown from the 15th floor balcony of her Sydney apartment](https://www.techdirt.com/articles/20140331/03591726741/mobile-spyware-use-domestic-violence-ramps-up.shtml) by her boyfriend Simon Gittany after he learned of her plan to leave him from text messages he intercepted using "MobiStealth", a mobile surveillance app.
+
+These are some of the cases that have made the news, but with hundreds of thousands of customers purchasing these apps from dozens of companies there must be much that is going undetected or unreported.
+
 This repo is a place to keep the results of my analysis of various types of Android stalkerware.
 
 This research is a result of my personal revulsion at the industry that has formed around enabling people to spy on their spouses, their children and their co-workers, profiting off of some of the worst, most paranoid impulses that humans can have is morally reprehensible and in many instances a violation of the law.
