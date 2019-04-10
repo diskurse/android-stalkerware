@@ -132,17 +132,22 @@ I have mapped GPS data from 250 infected devices taken from a leaked stalkerware
 
 Across the board, almost every stalkerware provider uses a mixture of legitimate infrastructure and their own sort of homebrew framework for exfiltrating data from victim's devices, hosted on their own servers. 
 
-<img align="right" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/dashboard.jpg">Devices transmit data back to various scripts running on a subdomain or the main site, these scripts pass the data to a database which stores the victim's information and makes it available to the stalker via a web (or sometimes app based) dashboard.
+<img align="right" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/dashboard.jpg">Devices transmit data back to various scripts running on a special domain, subdomain or the app's main site, these scripts pass the data to a database which stores the victim's information and makes it available to the stalker via a web (or sometimes app based) dashboard.
 
-Most of these apps are unable to get, or keep, a place in Google's Play Store, so they must rely on hosting their own apps (and as shown below require that users make changes to device's settings to enable them to work), many of them avail themselves of services like Crashlytics, Firebase and lesser known equivalents.
+Most of these apps are unable to get, or keep, a place in Google's Play Store because they fail Google's basic requirements for security and privacy, so they must rely on hosting their own apps (and as shown below require that users make changes to device's settings to enable them to work). Many of them avail themselves of services like Crashlytics, Firebase and lesser known equivalents however.
 
-Almost all of these services use 'Secure Android ID' as an identifier for victim's devices, it is a 64-bit number that is generated randomly when the Android device is first booted. Stalkerware services render this 64-bit ID number as a 16 character hex string, as seen here.
+Curiosly only one stalkerware app that I have come across so far adds the functionality of checking for other installed surveillance software as part of its installation procedures. This is "Spy Phone App", developed by [Monapp Calabs Limited](https://opencorporates.com/companies/cy/HE370694) and Andrei Ciuca, the company's director, operating out of Cyprus.
+<p align="center">
+  <img  width="706" height="130" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/spy-phone-app-other-apps.jpg">
+</p>
+
+Almost all of these various services use 'Secure Android ID' as an identifier for victim's devices, it is a 64-bit number that is generated randomly when the Android device is first booted. Stalkerware services render this 64-bit ID number as a 16 character hex string, as seen here.
 
 <p align="center">
   <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/setting-up.jpg">
 </p>
 
-While they use some legitimate services to provide complex infrastructure these providers still use traditional malware techniques, for instance 'Xnore' hosts a Facebook phishing login which redirects Facebook traffic from a victim's device and then relays the login and password to whoever installed the stalkerware.
+While they use some legitimate services to provide complex infrastructure these providers still must often resort to what would usually be considered straight up traditional malware techniques, for instance 'Xnore' hosts a Facebook phishing login which redirects Facebook traffic from a victim's device and then relays the login and password to whoever installed the stalkerware.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/facebook-phish.jpg">
@@ -166,7 +171,8 @@ Insecurity isn't just a feature of the methods these apps use to transfer data, 
   <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/phonesheriff.gif">
 </p>
 
-If you use these services you risk the discovery of your actions and the communications of the people you are spying upon as these companies are not secure and do not seem to prioritize the security of their users or the victims of their users.
+I want to take this opportunity to remind anyone reading this thinking about using this software, if you use these services you risk the discovery of your actions and the communications of the people you are spying upon as these companies are not secure and do not seem to prioritize the security of their users or the victims of their users.
+
 
 ## What is to be done?
 
