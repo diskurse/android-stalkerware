@@ -178,17 +178,23 @@ I want to take this opportunity to remind anyone reading this thinking about usi
 
 If you have done research relating to stalkerware or have ideas for further research or action on the subject please get in touch with me.
 
-Having thought about this a fair amount I can see three ways that stalkerware can be dealt with, minus the involvement of law enforcement or lawyers.
+Having thought about this a fair amount I can see three or four ways that stalkerware can be dealt with, minus the involvement of law enforcement or lawyers.
 
 Firstly training, or providing resources, for people who are on the front lines of working with survivors of domestic abuse to pick up on, and handle, signs of stalkerware infections. As I note below a lot of the guides for detecting stalkerware online miss a lot of the obvious tell tale indications, the more informed people in general, and specifically people who have to deal with the direct results of this software, are the better.
 
-Secondly technical solutions such as ensuring that the various app files are added to virus signature databases and creating network signatures for IDS like Snort. I'll freely admit that this is the weakest of the three, thoughts on this are welcome.
+Secondly technical solutions such as ensuring that the various app files are added to virus signature databases and creating network signatures for IDS like Snort. Eva Galperin at the EFF has been [working on this as a solution](https://www.wired.co.uk/article/tech-abuse-digital-stalking-eva-galperin-prevent), so far [Kaspersky](https://www.kaspersky.com/blog/stalkerware-spouseware/26292/) has been willing to take the problem as seriously as it deserves. This [academic paper](https://www.ipvtechresearch.org/pubs/spyware.pdf) discusses the massive gaps in detection that currently exist and shows that even the most successful antivirus solution tested left much to be desired.
 
-Finally, and this I think can be really very successful, the various companies that produce and market stalkerware do so because it is profitable. To sell their products they need to accept payments somehow and as the various methods of accepting payments come with restrictive terms of service that tend to frown rather heavily on hacking and domestic violence, drawing attention to the imagery and language used to sell stalkerware should result in their accounts being suspended. 
+Finally, and this I think can be really very successful from a preventative standpoint, the various companies that produce and market stalkerware do so because it is profitable. To sell their products they need to accept payments somehow and as the various methods of accepting payments come with restrictive terms of service that tend to frown rather heavily on hacking and domestic violence, drawing attention to the imagery and language used to sell stalkerware should result in their accounts being suspended. Many of the people creating and marketing these apps are in countries like Vietnam, China and India, they rely on the essentially untraceable and untaxable flow of dollars that monthly subscriptions to their services bring in, while this cash flows there will always be men willing to fill the demand.
 
-To see just how effective this can be check out [this fantastic article from Motherboard](https://motherboard.vice.com/en_us/article/7xnwa9/paypal-payments-stalkerware-software-abusive-partners), in which the authors question PayPal about their association with 'hellospy'. Cutting off revenue doesn't deal with the underlying problems that fuel the market for these services but it will reduce their appeal for producers as easy money.
+To see just how effective this can be check out [this fantastic article from Motherboard](https://motherboard.vice.com/en_us/article/7xnwa9/paypal-payments-stalkerware-software-abusive-partners), in which the authors question PayPal about their association with 'hellospy'. Cutting off revenue doesn't deal with the underlying problems that fuel the market for these services but it will reduce their appeal for developers as easy money.
 
-Legal avenues work too, [arrests for selling stalkerware are few and far between](https://www.justice.gov/opa/pr/man-pleads-guilty-selling-stealthgenie-spyware-app-and-ordered-pay-500000-fine) but they can be a formidable deterrent.
+Legal avenues can work too, [arrests for selling stalkerware are few and far between](https://www.justice.gov/opa/pr/man-pleads-guilty-selling-stealthgenie-spyware-app-and-ordered-pay-500000-fine) but they can be a formidable deterrent. 
+
+Many police forces now have access to devices from mobile forensics companies like Cellebrite and Graykey, the marketing from these companies boast of the investigative abilities that this technology will confer upon law enforcement, are they being used to track down stalkerware infections? The resources that many law enforcment agencies have plowed in to forensics hubs for device analysis, are cases of intimate partner surveillance being given any kind of priority?
+
+It is possible to detect these apps, either via the traces they leave on a device or their methods of communicating data back to their command and control servers. From detection it would be relatively simple for law enforcement to enforce a warrant either on PayPal or one of the other payment processors these companies all use or on the web hosting companies or other infrastructure they use which are frequently in Europe or the US, for the purposes of legal jurisdiction. 
+
+All that is required is the will to investigate and prosecute.
 
 <p align="center">
   <img  width="336" height="213" src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/stealthgenie-arrest.jpg">
