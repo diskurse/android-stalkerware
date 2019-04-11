@@ -119,7 +119,7 @@ One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic
   <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy7-small.jpg"> 
 </p>
 
-'ILF Mobile Apps Corp' is responsible for developing 'Highster Mobile', 'Auto Forward Spy', and 'Easy Spy', amusingly I discovered this because other stalkerware producers have made webpages accusing them of "shady business practices" because although it’s "generally normal for one vendor to have multiple similar applications, the reason why they offer three similar products goes further than just marketing to different audiences" and this is in fact because "their products simply do not work".
+'ILF Mobile Apps Corp' is responsible for developing 'Highster Mobile', 'Auto Forward Spy', and 'Easy Spy', amusingly I discovered this because other stalkerware producers have made webpages accusing them of "shady business practices" because although it’s "generally normal for one vendor to have multiple similar applications, the reason why they offer three similar products goes further than just marketing to different audiences" and this is in fact because "their products simply do not work". The reviewer goes on to express indignation at the business practices of 'ILF Mobile Apps Corp' and the fact that their terms of service "grant permission to ILF Mobile Apps Corp. to upload the entire Contact list of the device to which you have installed the software" and that "once Contact list is uploaded you agree and understand that ILF Mobile Apps Corp. does now own this information".
 
 Regardless of who is behind the various stalkerware apps, there are some similarities across the board.
 
