@@ -110,7 +110,16 @@ I've done some form of analysis, primarily using [MARA Framework](https://github
 
 I have my suspicions as to how many of these seemingly different products are in fact created by a much smaller number of companies, either stacking their odds of finding customers by seeming to compete with their own software or to make tracing the flow of cash more difficult. 
 
-There is, once again, some evidence to support this, whether in code reuse between apps, different apps using the same webhosting companies, app providers reselling or linking to each other's services and in the data that has been leaked from breaches of stalkerware providers. When 'Retina-X' was hacked and [went out of business](https://motherboard.vice.com/en_us/article/neqgn8/retina-x-spyware-shuts-down-apps) it was revealed that the company was responsible for the creation and marketing of multiple apps, 'Mobile Spy', 'PhoneSheriff', 'TeenShield', 'NetOrbit' and 'SniperSpy'.
+There is, once again, some evidence to support this, whether in code reuse between apps, different apps using the same webhosting companies, app providers reselling or linking to each other's services and in the data that has been leaked from breaches of stalkerware providers. When 'Retina-X' was hacked and [went out of business](https://motherboard.vice.com/en_us/article/neqgn8/retina-x-spyware-shuts-down-apps) it was revealed that the company was responsible for the creation and marketing of multiple apps, 'Mobile Spy', 'PhoneSheriff', 'TeenShield', 'NetOrbit' and 'SniperSpy'. 
+
+One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic', 'Hellospy' and 'SpyApp247', aside from loving the word 'spy' he had a serious penchant for promoting his apps using his own name for a while, and registering domains with his personal Gmail account, his name appears to be John Nguyen, and he lives in Vietnam.
+
+<p align="center">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy3-small.jpg">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy7-small.jpg"> 
+</p>
+
+'ILF Mobile Apps Corp' is responsible for developing 'Highster Mobile', 'Auto Forward Spy', and 'Easy Spy', amusingly I discovered this because other stalkerware producers have made webpages accusing them of "shady business practices" because although it’s "generally normal for one vendor to have multiple similar applications, the reason why they offer three similar products goes further than just marketing to different audiences" and this is in fact because "their products simply do not work".
 
 Regardless of who is behind the various stalkerware apps, there are some similarities across the board.
 
