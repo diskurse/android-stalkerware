@@ -68,7 +68,6 @@ https://reptilicus.net/new/backend/
 https://reptilicus.net/new/backend/account/auth
 https://reptilicus.net/new/backend/account/registration
 https://reptilicus.net/new/backend/account/recoveryPassword
-
  
 Shadow
 https://www.shadow-logs.com
@@ -78,6 +77,11 @@ https://www.shadow-logs.com/backend/user/login
 https://www.shadow-logs.com/backend/file/uploadgolive
 https://www.shadow-logs.com/backend/file/upload
 https://www.shadow-logs.com/backend/file/download?name=
+
+Snoopza
+https://my.snoopza.com:26298/
+https://my.snoopza.com/
+
 
 SpyHuman
 https://apispyhuman.com/v1
