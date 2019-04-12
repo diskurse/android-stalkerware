@@ -13,6 +13,8 @@ In 2017 [Rasheeda Johnson Turner was arrested in Los Angeles for hiring a hitman
 
 Prosecutors in the [triple homicide case against Luis Toledo](https://www.clickorlando.com/news/day-2-of-testimony-in-luis-toledo-murder-trial) were able to prove that he had installed stalkerware called "SMS Tracker" on his wife's phone before her death, what he discovered motivated him to kill not only her but her 8 and 9 year old children as well. Toledo is currently serving three consecutive life prison sentences for the murder of his family.
 
+Cooperating with [Europol and Eurojust](https://www.europol.europa.eu/newsroom/news/international-law-enforcement-action-against-droidjack-mobile-phone-malware-0), law enforcement in Germany, France, Britain, Belgium, Switzerland and the US carried out raids on users of 'DroidJack' in 2015, a sort of combination RAT (remote access trojan) and stalkerware, [an arrest in the UK was covered by the BBC](https://www.bbc.co.uk/news/technology-34668337) at the time.
+
 Carlos Enrique Perez-Melara was added to the [FBI's most wanted list in 2013](https://www.nbcnews.com/technolog/fbis-most-wanted-includes-hacker-who-helped-catch-cheating-lovers-8C11551655), for creating and marketing "Loverspy", stalkerware that masqueraded as an electronic greeting card but was in fact malware designed for harvesting victim's messenger app content, emails and monitoring their webcam, transmitting the data back to the software's purchaser. 
 
 Kristin Newell Nyunt pled guilty in 2014 to [two counts of wiretapping](https://eu.thecalifornian.com/story/news/local/2014/11/11/ex-wife-former-pg-police-commander-pleads-guilty/18855781/) for installing "Mobistealth, StealthGenie and mSpy, on a police officer’s cell phone in an attempt to gather sensitive law enforcement information". In 2011 Lisa Harnum was [thrown from the 15th floor balcony of her Sydney apartment](https://www.techdirt.com/articles/20140331/03591726741/mobile-spyware-use-domestic-violence-ramps-up.shtml) by her boyfriend Simon Gittany after he learned of her plan to leave him from text messages he intercepted using "MobiStealth", a mobile surveillance app.
@@ -229,5 +231,6 @@ If you are in any doubt I would suggest installing one of the various Android an
 
 + [The Spyware Used in Intimate Partner Violence](https://www.ipvtechresearch.org/pubs/spyware.pdf)(2018)
 + [Motherboard - Domestic Surveillance](https://soundcloud.com/motherboard/domestic-surveillance)(2018)
++ [Undone by his own spying operation, arrest of drug lord shows how surveillance is used to perpetuate gender-based violence](https://privacyinternational.org/blog/2655/undone-his-own-spying-operation-arrest-drug-lord-shows-how-surveillance-used-perpetuate)
 + [Commercial Spyware - Detecting the Undetectable](https://www.blackhat.com/docs/us-15/materials/us-15-Dalman-Commercial-Spyware-Detecting-The-Undetectable.pdf) (2015)
 + [Spy vs. Spy: Examining spyware on mobile devices](https://www.defcon.org/images/defcon-20/dc-20-presentations/Robinson/DEFCON-20-Robinson-Spy-vs-Spy.pdf)(2012)
