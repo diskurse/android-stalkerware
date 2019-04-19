@@ -4,7 +4,7 @@
   + [What are 'dual use' apps?](#what-are-dual-use-apps)
   + [How does stalkerware work?](#how-does-stalkerware-work)
   + [Who are the players?](#who-are-the-players)
-  + [Insights from leaks](#insight-from-leaks)
+  + [Insights from leaks](#insights-from-leaks)
   + [Signs of infection](#signs-your-phone-may-be-infected-with-stalkerware)
   + [What is to be done?](#what-is-to-be-done)
   + [Further reading](#further-reading)
