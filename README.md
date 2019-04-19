@@ -27,6 +27,8 @@ This repo is a place to keep the results of my analysis of various types of Andr
 
 This research is a result of my personal revulsion at the industry that has formed around enabling people to spy on their spouses, their children and their co-workers, profiting off of some of the worst, most paranoid impulses that humans can have is morally reprehensible and in many instances a violation of the law.
 
+My interest in researching stalkerware began last year, after a talk at my local DC44131 meet up by Dan Nash, you can find his talk on stalkerware at [BSides Belfast here](https://www.youtube.com/watch?v=126s8hsuomM).
+
 I currently have no plans to expand into iPhone stalkerware analysis, however almost all of the companies featured here offer iPhone versions of their software which most likely operate in a similar fashion in regards to transmission of data, etc.
 
 As I gather more data repo this will be updated regularly.
@@ -70,8 +72,6 @@ Marketing for these services often explicitly appeals to paranoid spouses, looki
   <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/thetruth-you-wonder.png">
 </p>
 
-My interest in researching stalkerware began last year, after a talk at my local DC44131 meet up by Dan Nash, you can find his talk on stalkerware at [BSides Belfast here](https://www.youtube.com/watch?v=126s8hsuomM).
-
 While there has been some media attention focused on this emerging phenomenon, some very [well written from motherboard](https://motherboard.vice.com/en_us/topic/stalkerware), other sensationalized like below, there has been relatively very little written about stalkerware from a technical perspective.
 
 <p align="center">
@@ -112,20 +112,7 @@ However the comments for the app show that many users are under no illusion as t
 
 I've done some form of analysis, primarily using [MARA Framework](https://github.com/xtiankisutsa/MARA_Framework), [DroidBox](https://github.com/pjlantz/droidbox) and [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF), of over three dozen variants of Android stalkerware to date. 
 
-I have my suspicions as to how many of these seemingly different products are in fact created by a much smaller number of companies, either stacking their odds of finding customers by seeming to compete with their own software or to make tracing the flow of cash more difficult. 
-
-There is, once again, some evidence to support this, whether in code reuse between apps, different apps using the same webhosting companies, app providers reselling or linking to each other's services and in the data that has been leaked from breaches of stalkerware providers. When 'Retina-X' was hacked and [went out of business](https://motherboard.vice.com/en_us/article/neqgn8/retina-x-spyware-shuts-down-apps) it was revealed that the company was responsible for the creation and marketing of multiple apps, 'Mobile Spy', 'PhoneSheriff', 'TeenShield', 'NetOrbit' and 'SniperSpy'. 
-
-One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic', 'Hellospy' and 'SpyApp247', aside from loving the word 'spy' he had a serious penchant for promoting his apps using his own name for a while, and registering domains with his personal Gmail account, his name appears to be John Nguyen, and he lives in Vietnam.
-
-<p align="center">
-  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy3-small.jpg">
-  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy7-small.jpg"> 
-</p>
-
-'ILF Mobile Apps Corp' is responsible for developing 'Highster Mobile', 'Auto Forward Spy', and 'Easy Spy', amusingly I discovered this because other stalkerware producers have made webpages accusing them of "shady business practices" because although it’s "generally normal for one vendor to have multiple similar applications, the reason why they offer three similar products goes further than just marketing to different audiences" and this is in fact because "their products simply do not work". The reviewer goes on to express indignation at the business practices of 'ILF Mobile Apps Corp' and the fact that their terms of service "grant permission to ILF Mobile Apps Corp. to upload the entire Contact list of the device to which you have installed the software" and that "once Contact list is uploaded you agree and understand that ILF Mobile Apps Corp. does now own this information".
-
-Regardless of who is behind the various stalkerware apps, there are some similarities across the board.
+Regardless of who is behind the various stalkerware apps, there are some similarities in these apps across the board.
 
 These apps all require that the person installing them has physical access to the phone to be infected, and the ability to unlock that phone for the purposes of installing the app. These apps all carry with them similar requests for permissions in their AndroidManifest files, the file within the app that among other things defines permissions that the app needs in order to access protected parts of the system or other apps. 
 
@@ -188,6 +175,19 @@ I want to take this opportunity to remind anyone reading this thinking about usi
 
 ## Who are the players?
 
+I have my suspicions as to how many of these seemingly different products are in fact created by a much smaller number of companies, either stacking their odds of finding customers by seeming to compete with their own software or to make tracing the flow of cash more difficult. 
+
+There is, once again, some evidence to support this, whether in code reuse between apps, different apps using the same webhosting companies, app providers reselling or linking to each other's services and in the data that has been leaked from breaches of stalkerware providers. When 'Retina-X' was hacked and [went out of business](https://motherboard.vice.com/en_us/article/neqgn8/retina-x-spyware-shuts-down-apps) it was revealed that the company was responsible for the creation and marketing of multiple apps, 'Mobile Spy', 'PhoneSheriff', 'TeenShield', 'NetOrbit' and 'SniperSpy'. 
+
+One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic', 'Hellospy' and 'SpyApp247', aside from loving the word 'spy' he had a serious penchant for promoting his apps using his own name for a while, and registering domains with his personal Gmail account, his name appears to be John Nguyen, and he lives in Vietnam. He uses various company names for account registration purposes, either of domains or Paypal accounts, which include "LIXI CORPORATION", "Minoyou Solution" and "1TopSpy LLC". 
+
+<p align="center">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy3-small.jpg">
+  <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy7-small.jpg"> 
+</p>
+
+'ILF Mobile Apps Corp' is responsible for developing 'Highster Mobile', 'Auto Forward Spy', and 'Easy Spy', amusingly I discovered this because other stalkerware producers have made webpages accusing them of "shady business practices" because although it’s "generally normal for one vendor to have multiple similar applications, the reason why they offer three similar products goes further than just marketing to different audiences" and this is in fact because "their products simply do not work". The reviewer goes on to express indignation at the business practices of 'ILF Mobile Apps Corp' and the fact that their terms of service "grant permission to ILF Mobile Apps Corp. to upload the entire Contact list of the device to which you have installed the software" and that "once Contact list is uploaded you agree and understand that ILF Mobile Apps Corp. does now own this information".
+
 ## Insights from leaks
 
 ## What is to be done?
@@ -198,7 +198,7 @@ Having thought about this a fair amount I can see three or four ways that stalke
 
 Firstly training, or providing resources, for people who are on the front lines of working with survivors of domestic abuse to pick up on, and handle, signs of stalkerware infections. As I note below a lot of the guides for detecting stalkerware online miss a lot of the obvious tell tale indications, the more informed people in general, and specifically people who have to deal with the direct results of this software, are the better.
 
-Secondly technical solutions such as ensuring that the various app files are added to virus signature databases and creating network signatures for IDS like Snort. Eva Galperin at the EFF has been [working on this as a solution](https://www.wired.co.uk/article/tech-abuse-digital-stalking-eva-galperin-prevent), so far [Kaspersky](https://www.kaspersky.com/blog/stalkerware-spouseware/26292/) has been willing to take the problem as seriously as it deserves. This [academic paper](https://www.ipvtechresearch.org/pubs/spyware.pdf) discusses the massive gaps in detection that currently exist and shows that even the most successful antivirus solution tested left much to be desired.
+Secondly technical solutions such as ensuring that the various app files are added to virus signature databases and creating network signatures for IDS like Snort. Eva Galperin at the EFF has been [working on this as a solution](https://www.wired.co.uk/article/tech-abuse-digital-stalking-eva-galperin-prevent), so far [Kaspersky](https://www.kaspersky.com/blog/stalkerware-spouseware/26292/) has been willing to take the problem as seriously as it deserves. It is kind of worrying to note that within weeks of this announcement by Kaspersky allegations appeared of them [hiring Black Cube to spy on detractors](https://www.apnews.com/a3144f4ef5ab4588af7aba789e9892ed), this is not a good indication of a trustworthy company. To give some background to efficacy of antivirus in general this [academic paper](https://www.ipvtechresearch.org/pubs/spyware.pdf) discusses the massive gaps in detection that currently exist and shows that even the most successful antivirus solution tested left much to be desired.
 
 Finally, and this I think can be really very successful from a preventative standpoint, the various companies that produce and market stalkerware do so because it is profitable. To sell their products they need to accept payments somehow and as the various methods of accepting payments come with restrictive terms of service that tend to frown rather heavily on hacking and domestic violence, drawing attention to the imagery and language used to sell stalkerware should result in their accounts being suspended. Many of the people creating and marketing these apps are in countries like Vietnam, China and India, they rely on the essentially untraceable and untaxable flow of dollars that monthly subscriptions to their services bring in, while this cash flows there will always be men willing to fill the demand.
 
