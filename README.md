@@ -33,6 +33,8 @@ I currently have no plans to expand into iPhone stalkerware analysis, however al
 
 As I gather more data repo this will be updated regularly.
 
+If you are a researcher or journalist who wants to write about this subject and you think I can be of assistance please get in touch either via nscrutables@protonmail.com or through [my Twitter](https://twitter.com/nscrutables), DMs are open.
+
 
 ## Ethical considerations.
 
