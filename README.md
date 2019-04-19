@@ -108,10 +108,6 @@ However the comments for the app show that many users are under no illusion as t
   <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/aaaaaaaaaaaaaaaaaaaaa.jpg?raw=true">
 </p>
 
-## Who are the players?
-
-## Insights from leaks
-
 ## How does stalkerware work?
 
 I've done some form of analysis, primarily using [MARA Framework](https://github.com/xtiankisutsa/MARA_Framework), [DroidBox](https://github.com/pjlantz/droidbox) and [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF), of over three dozen variants of Android stalkerware to date. 
@@ -190,6 +186,9 @@ Insecurity isn't just a feature of the methods these apps use to transfer data, 
 
 I want to take this opportunity to remind anyone reading this thinking about using this software, if you use these services you risk the discovery of your actions and the communications of the people you are spying upon as these companies are not secure and do not seem to prioritize the security of their users or the victims of their users.
 
+## Who are the players?
+
+## Insights from leaks
 
 ## What is to be done?
 
