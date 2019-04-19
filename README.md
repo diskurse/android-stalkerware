@@ -1,8 +1,10 @@
   + [Introduction](#introduction)
   + [Ethical considerations](#ethical-considerations)
   + [What is 'stalkerware'?](#what-is-stalkerware)
-  + [What are 'dual use' apps?](#what-are-dual-use-apps?)
+  + [What are 'dual use' apps?](#what-are-dual-use-apps)
   + [How does stalkerware work?](#how-does-stalkerware-work)
+  + [Who are the players?](#who-are-the-players)
+  + [Insights from leaks](#insight-from-leaks)
   + [Signs of infection](#signs-your-phone-may-be-infected-with-stalkerware)
   + [What is to be done?](#what-is-to-be-done)
   + [Further reading](#further-reading)
@@ -105,6 +107,10 @@ However the comments for the app show that many users are under no illusion as t
 <p align="center">
   <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/aaaaaaaaaaaaaaaaaaaaa.jpg?raw=true">
 </p>
+
+## Who are the players?
+
+## Insights from leaks
 
 ## How does stalkerware work?
 
