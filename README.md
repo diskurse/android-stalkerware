@@ -179,9 +179,19 @@ I want to take this opportunity to remind anyone reading this thinking about usi
 
 I have my suspicions as to how many of these seemingly different products are in fact created by a much smaller number of companies, either stacking their odds of finding customers by seeming to compete with their own software or to make tracing the flow of cash more difficult. 
 
-There is, once again, some evidence to support this, whether in code reuse between apps, different apps using the same webhosting companies, app providers reselling or linking to each other's services and in the data that has been leaked from breaches of stalkerware providers. When 'Retina-X' was hacked and [went out of business](https://motherboard.vice.com/en_us/article/neqgn8/retina-x-spyware-shuts-down-apps) it was revealed that the company was responsible for the creation and marketing of multiple apps, 'Mobile Spy', 'PhoneSheriff', 'TeenShield', 'NetOrbit' and 'SniperSpy'. 
+There is, once again, some evidence to support this, whether in code reuse between apps, different apps using the same webhosting companies, app providers reselling or linking to each other's services and in the data that has been leaked from breaches of stalkerware providers. When 'Retina-X' was hacked and [went out of business](https://motherboard.vice.com/en_us/article/neqgn8/retina-x-spyware-shuts-down-apps) it was revealed that the company was responsible for the creation and marketing of multiple apps, 'Mobile Spy', 'PhoneSheriff', 'TeenShield', 'NetOrbit' and 'SniperSpy'.
 
-One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic', 'Hellospy' and 'SpyApp247', aside from loving the word 'spy' he had a serious penchant for promoting his apps using his own name for a while, and registering domains with his personal Gmail account, his name appears to be John Nguyen, and he lives in Vietnam. He uses various company names for account registration purposes, either of domains or Paypal accounts, which include "LIXI CORPORATION", "Minoyou Solution" and "1TopSpy LLC". 
+The companies that market these products are a vital part of understanding the problem of stalkerware and combating it. I've managed to locate, with some degree of certainty, companies based in India, Vietnam, UAE, Cyprus, Poland, China and Thailand. These various companies carve up the pool of potential customers through marketing (I suspect targeted Google ads based on location of search), which languages they choose to translate their site into and the associated YouTube videos and other social media outreach that the company does.
+
+At times it is obvious that there is a conscious, public rivalry between some of the developers, at times these rivalries spill over into web content.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/ispyoo-vs-mspy.jpg">
+</p>
+
+What follows is brief summaries of the information I have been able to glean about who is behind various apps, where possible I have linked supporting evidence.
+
+One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic', 'Hellospy' and 'SpyApp247', aside from loving the word 'spy' he had a serious penchant for promoting his apps using his own name for a while, and registering domains with his [personal Gmail account](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/johnnguyengfhgf.jpg), his name appears to be John Nguyen, and he lives in Vietnam. He uses various company names for account registration purposes, either of domains or [Paypal accounts](https://github.com/diskurse/android-stalkerware/blob/master/docs/images/lixi-corp-2.jpg), which include "[LIXI CORPORATION](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/lixi-corp-1.jpg)", "Minoyou Solution" and "1TopSpy LLC". 
 
 <p align="center">
   <img src="https://github.com/diskurse/android-stalkerware/blob/master/docs/images/john-n-mobiispy3-small.jpg">
@@ -189,6 +199,16 @@ One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic
 </p>
 
 'ILF Mobile Apps Corp' is responsible for developing 'Highster Mobile', 'Auto Forward Spy', and 'Easy Spy', amusingly I discovered this because other stalkerware producers have made webpages accusing them of "shady business practices" because although it’s "generally normal for one vendor to have multiple similar applications, the reason why they offer three similar products goes further than just marketing to different audiences" and this is in fact because "their products simply do not work". The reviewer goes on to express indignation at the business practices of 'ILF Mobile Apps Corp' and the fact that their terms of service "grant permission to ILF Mobile Apps Corp. to upload the entire Contact list of the device to which you have installed the software" and that "once Contact list is uploaded you agree and understand that ILF Mobile Apps Corp. does now own this information".
+
+'Spyera' claims to have released the first version of it's stalkerware on April 18th, 2004, the CEO of the company is called Mihat Oger and the company appears to be based in Hong Kong. As far back as 2011 Spyera was included in cautionary articles about stalkerware as in [this one from 2011](https://www.pcworld.com/article/245219/mobile_spyware_raises_ethical_legal_questions.html) in which Oger discusses the breakdown of his customers by nation (at the time claiming that 38% were based in the US,c 18% in China) and describing the growth in his company's sales  which he says "increased 17 percent from 2009 to 2010 and increased 32 percent from 2010 to 2011". Spyera left a number of documents in browseable directories including these, showing income from sales over the period of a few months and of them downloading one of the apks from the FlexiSpy "[flexidie](https://github.com/Te-k/flexidie)" leak.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/the-money.jpg">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/flexidie-spyera.jpg"> 
+</p>
+
+
+
 
 ## Insights from leaks
 
