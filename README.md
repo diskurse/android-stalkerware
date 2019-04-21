@@ -203,8 +203,7 @@ One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic
 'Spyera' claims to have released the first version of it's stalkerware on April 18th, 2004, the CEO of the company is called Mihat Oger and the company appears to be based in Hong Kong. As far back as 2011 Spyera was included in cautionary articles about stalkerware as in [this one from 2011](https://www.pcworld.com/article/245219/mobile_spyware_raises_ethical_legal_questions.html) in which Oger discusses the breakdown of his customers by nation (at the time claiming that 38% were based in the US,c 18% in China) and describing the growth in his company's sales  which he says "increased 17 percent from 2009 to 2010 and increased 32 percent from 2010 to 2011". Spyera left a number of documents in browseable directories including these, showing income from sales over the period of a few months and of them downloading one of the apks from the FlexiSpy "[flexidie](https://github.com/Te-k/flexidie)" leak.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/the-money.jpg">
-  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/flexidie-spyera.jpg"> 
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/the-money.jpg"><img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/flexidie-spyera.jpg"> 
 </p>
 
 
