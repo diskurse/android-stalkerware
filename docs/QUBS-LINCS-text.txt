@@ -1,0 +1,57 @@
+In 2017 Rasheeda Johnson Turner was arrested in Los Angeles for hiring a hitman to kill her boyfriend in order to cash in on his life insurance policy, she had installed monitoring software on her boyfriend's phone so that she could inform the hitman of his movements. 
+
+Last year during the trial of drug cartel kingpin Joaquín “El Chapo” Guzmán it emerged that he had installed  the "FlexiSpy" surveillance app on 50 "special phones" as he termed them, which he gave to his inner circle so that he could monitor their communications unbeknownst to them. 
+
+While we focus on nation states and corporate roles in steadily eroding our privacy and expanding omnipresent surveillance, an entire niche industry that caters to regular consumers who want similar spying capabilities has slipped largely under the radar.
+
+What has grown in the shadows is a sprawling, interconnected ecosystem of developers, suppliers and resellers of covert reconnaissance applications marketed to paranoid parents, abusive spouses and mega-maniacal business managers.
+
+This talk will present some analysis of this industry and its products from a technical and non-technical standpoint, based on months of personal research.
+
+We're pretty much all dependent on smartphones in our everyday existence, they have become a vast repository of information about us and our lives that present a tempting target for governments and unscrupulous individuals alike. Industries have sprung up that make money from stealing data from our devices, corporations like NSO and Gamma cater to governments but a collection of much smaller businesses have sprung up that seek to offer similar capabilities to regular consumers on a shoe string budget.
+
+The suppliers of the apps themselves will frequently attempt to brand their products as intended for use with a  narrow scope, as "child safety" or "employee monitoring" tools, to distance themselves from negative associations of spying without consent. These apps are placed under the umbrella term "intimate partner surveillance" or IPS, sometimes they are referred to with the more generic category of "spyware", I think though that this risks confusing them with adware.
+
+'Stalkerware' or 'spouseware' are two of the more popular terms that have been coined for this software, 'stalkerware' is the term I shall be using during this presentation. 
+
+Stalkerware is essentially just malware that is targeted very specifically and built to operate covertly on mobile devices to enable the collection, exfiltration and monitoring of victim's communications and data. It allows the person who has installed it to track victim's precise GPS location data in near real time, monitor text messages, social media accounts, phone calls, contact lists, websites visited, and more, all from a control panel hosted by the app's developer. Some of these apps also enable the user to send SMS messages from the victim's phone, add logged phone call records to the device's call log, or upload files to the victim's phone.
+
+The easy way to distinguish between consumer level products like stalkerware and the types of tools available to governments is the method of infection, all stalkerware I have encountered requires physical access to an unlocked phone while malware sold to governments can be installed remotely. To install these apps the user must navigate to a download page from the victim's phone, grab the app and then make changes to the phone's settings to enable installation.
+
+The app names are evocative of the covert nature of the surveillance that they enable, the word 'spy' crops up over and over again, with names like 'AppSpy', 'MobiiSpy', 'SpyToPhone', 'FlexiSpy', 'mSpy' among others. 
+
+Because these apps cannot meet the basic security or privacy standards that are required to enter apps into the stores of Google or Apple they must rely on a web of alternative methods to entice prospective customers to their sites. Google ads that target people searching for terms like "cheating spouse" or "Android monitor" are one way they do this. 
+
+YouTube is another really popular tool for promotion of these apps, one video entitled "How To Install Flexispy Without the Target Device" by user "spywizz dotcom" which details potential ways to persuade an unwitting person to voluntarily install stalkerware has 2,370,985 views, he includes a referral link for Flexispy in the description. Comments on the video range from "how is it gonna be legal if you're pretending to be someone else to deceive the other person" to "will it work if the phone was taken to oversea suppose to be a conference".
+
+There are review sites that purport to detail the dangers that technology can bring in to a relationship, offering up trusting your partner's data to a company operating in a legal gray area that probably exists solely as an internet front as a solution. These review sites function as a way to promote the various apps but also as a way for the site maintainers to earn extra money from referral programs.
+
+The app developers themselves also frequently host dozens of blog entries on their sites that discuss online infidelity, the dangers that the internet can pose to unsupervised teenagers or the risks of phone theft. Almost all of these sites have some kind of legal disclaimer or terms of service page that implores users to abide by the law when it comes to monitoring phones without the owner's permission. Or as 'TheTruthSpy puts it "if you install the software on a phone that you do not have or you do not have the appropriate consent, you are out of law". This despite almost all of these sites also hosting app installation guides with phrases like "you can listen to the calls, read victim phone messages, go to the victim social media account and read its activities", also in the case of 'TheTruthSpy'.
+
+It is important to realize that this software is being created by tech-savvy professionals, some of whom have worked industry jobs for prominent companies, according to their LinkedIns (and yes, some of them have LinkedIns), not kids from hacking forums. So far I have traced companies based in China, Vietnam, India, Poland and Cyprus. The men working for these companies (and I have yet to have come across any women in the industry at this point) are all profiting immensely from a business model that involves easily accepting online payments in dollars. 
+
+Examining leaked databases from some of the dozen or so of these companies that have been hacked over the last five years the smallest dataset contained 114,000 registered users, with 1,700 active device infections at the time of the leak.
+
+So I'm wearing two hats here, I'm a researcher presenting my findings but I am also an activist working to combat this industry therefore this presentation would be incomplete without some thoughts on mitigating the threat of stalkerware.
+
+Firstly training, or providing resources, for people who are on the front lines of working with survivors of domestic abuse to pick up on, and handle, signs of device infections.
+
+There are a few different projects underway right now to use a raspberry pi to monitor network traffic from a connected phone and compare this traffic to a list of domains associated with surveillance app command and control functions, this is one way that people with limited technical training could detect compromised devices.
+
+While it's impossible to prevent people being jealous or paranoid, it is certainly possible to impede their ability to act on these impulses. Right now there is an ample supply of companies, dozens, marketing apps to stalkers, these companies exist because they are very profitable. Renting a server to host victim data on and creating the initial apps with occasional updates are the only initial investment, after that the subscription money is pure profit.
+
+To sell their products developers need to accept payments somehow and as most of the various methods of accepting payments come with restrictive terms of service that tend to frown rather heavily on hacking and domestic violence, drawing attention to the imagery and language used to sell stalkerware should result in their accounts being suspended. 
+
+The profits these companies rake in currently come with few risks. I've come across two cases of creators of stalkerware being charged as a result, the first is Carlos Enrique Perez-Melara who was added to the FBI's most wanted list in 2013. He created and marketed "Loverspy", software that masqueraded as an electronic greeting card but was in fact malware designed for harvesting victim's messenger app content, emails and monitoring their webcam, transmitting the data back to the software's purchaser.
+
+The second is the case of Hammad Akbar, the Danish CEO of a company that marketed "StealthGenie", he was arrested in 2014 in the US and pled guilty to "sale of an interception device and advertisement of a known interception device", he was sentenced to time served and a $500,000 fine. Subsequently StealthGenie shut down, although their website now acts as a referral site for other stalkerware, showing the determination of these companies to maintain cashflow.
+
+Many police forces now have access to devices from mobile forensics companies like Cellebrite and Graykey, the marketing for these companies boast of the investigative abilities that this technology will confer upon law enforcement, are they being used to track down stalkerware infections? 
+
+It is possible to fairly easily detect these apps, via the traces they leave on a device or their methods of communicating with command and control servers. From detection it would be possible for law enforcement to procure a warrant either on PayPal or another of the payment processors these companies all use or on the web hosting companies or infrastructure they use which are frequently located in Europe or the US, for the purposes of legal jurisdiction.
+
+Currently most anti-virus products either do not detect all stalkerware or do not phrase the resulting alerts in a way that explains properly the danger that the programs can pose to people. While some varieties of stalkerware specifically check for installed AV software and warn the person installing the app to disable it, and all require the disabling of Android's inbuilt "Google Play Protect" service to function properly, antivirus apps are still a useful tool in detecting infections after the fact. 
+
+I'm hopeful for the future, solutions are available.
+
+Thank you for the opportunity to be here today and discuss this issue.
