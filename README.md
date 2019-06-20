@@ -212,9 +212,23 @@ One man owns the company that produces 'MobiiSpy', 'Maxxspy', '1topspy', 'Spytic
 </p>
 
 
-
-
 ## Insights from leaks
+
+In 2016 WtSpy was hacked, their user database of just over 179,000 accounts was leaked and made available for download on the net. Examining this database can provide us with some insight into who their customers were at this time and where we can expect to find this particular app prevalent. WtSpy is, I am fairly certain, based in the United Arab Emirates and markets extensively in Arabic. By comparing the "country_id" field in the leaked database with the [source for their registration page](https://github.com/diskurse/android-stalkerware/blob/master/docs/wtspy-country-codes.txt) we can see which five countries are represented the most in the leak.
+
+| frequency   | country_id |    country   |
+|-------------|------------|--------------|
+|     47298   |     196    | Saudi Arabia |
+|     13888   |     214    | Syria        |
+|     12723   |     146    | Morocco      |
+|     11206   |      1     | Afghanistan  |
+|      9642   |     244    | Yemen        |
+
+We can see then that the assumptions we could make, based on location and marketing, about the target user base for WtSpy is accurate. Each account represents at least one infected device, so in Saudi Arabia at the time of the database leak there were over 47,000 WtSpy infected devices. Examining the file further we can see that there are a number of .gov addresses among the subscribers, in particular Saudi Arabian government email addresses, with other Middle Eastern countries also making an appearance.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/gov-emails.jpg"> 
+</p>
 
 ## What is to be done?
 
