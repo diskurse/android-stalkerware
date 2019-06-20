@@ -1,4 +1,9 @@
-  + [Introduction](#introduction)
+ 
+ <center>
+  [![Watching The Watchers: The Stalkerware Surveillance Ecosystem](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube-watchers.jpg)]https://www.youtube.com/watch?v=EzMkqtNAo6A "Watching The Watchers: The Stalkerware Surveillance Ecosystem")
+  </center>
+ 
+ + [Introduction](#introduction)
   + [Ethical considerations](#ethical-considerations)
   + [What is 'stalkerware'?](#what-is-stalkerware)
   + [What are 'dual use' apps?](#what-are-dual-use-apps)
