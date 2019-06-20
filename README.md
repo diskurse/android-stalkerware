@@ -1,6 +1,6 @@
  
 <p align="center">
-  [![Watching The Watchers: The Stalkerware Surveillance Ecosystem](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube-watchers.jpg)](https://www.youtube.com/watch?v=EzMkqtNAo6A)
+  [![The Stalkerware Surveillance Ecosystem](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube-watchers.jpg)](https://www.youtube.com/watch?v=EzMkqtNAo6A)
   </p>
  
  + [Introduction](#introduction)
