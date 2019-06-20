@@ -1,7 +1,5 @@
  
-<p align="center">
- [![The Stalkerware Surveillance Ecosystem](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube-watchers.jpg)](https://www.youtube.com/watch?v=EzMkqtNAo6A "The Stalkerware Surveillance Ecosystem")
-  </p>
+[![The Stalkerware Surveillance Ecosystem](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube-watchers.jpg)](https://www.youtube.com/watch?v=EzMkqtNAo6A "The Stalkerware Surveillance Ecosystem")
  
  + [Introduction](#introduction)
   + [Ethical considerations](#ethical-considerations)
