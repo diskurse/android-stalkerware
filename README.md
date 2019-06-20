@@ -1,6 +1,4 @@
- 
-[![The Stalkerware Surveillance Ecosystem](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube-watchers.jpg)](https://www.youtube.com/watch?v=EzMkqtNAo6A "The Stalkerware Surveillance Ecosystem")
- 
+
  + [Introduction](#introduction)
   + [Ethical considerations](#ethical-considerations)
   + [What is 'stalkerware'?](#what-is-stalkerware)
@@ -13,6 +11,8 @@
   + [Further reading](#further-reading)
 
 ## Introduction
+
+[![The Stalkerware Surveillance Ecosystem](https://raw.githubusercontent.com/diskurse/android-stalkerware/master/docs/images/youtube-watchers.jpg)](https://www.youtube.com/watch?v=EzMkqtNAo6A "The Stalkerware Surveillance Ecosystem")
 
 In 2017 [Rasheeda Johnson Turner was arrested in Los Angeles for hiring a hitman to kill her boyfriend](http://www.documentcloud.org/documents/4355810-Rasheeda-Johnson-Turner-criminal-complaint.html) in order to cash in on his life insurance policy, she had installed monitoring software on her boyfriend's phone so that she could inform the hitman of his movements. Last year during the trial of drug cartel boss Joaquín “El Chapo” Guzmán it emerged that [he had installed the "FlexiSpy" stalkerware app on 50 "special phones"](https://www.theatlantic.com/technology/archive/2019/01/fbi-used-el-chapos-own-spies-against-him/580324/) as he called them, which he gave to his inner circle so that he could monitor their communications unbeknownst to them. 
 
