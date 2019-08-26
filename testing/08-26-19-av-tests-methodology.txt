@@ -1,21 +1,54 @@
-The thirteen apps for this series of tests were chosen through a somewhat unscientific method of prevalence in Google search results for terms like "Android phone monitor" or "Android spy" and the degree to which their marketing was directed at potential abusers.
+The thirteen apps for this series of tests were chosen through a somewhat unscientific method of prevalence in 
+Google search results for terms like "Android phone monitor" or "Android spy" and the degree to which their 
+marketing was directed at potential abusers.
 
-Missing from these tests are three stalkerware apps that are more difficult to get recent samples of but, by all indications, are very widely used. These are Flexispy, mSpy and Mobistealth. Future tests will hopefully include recent samples of these apps.
+The thirteen stalkerware (or dual use) apps installed for testing purposes were:
 
-All apps were installed successfully and also fully activated (where possible) on a rooted Android 5.1 phone. In the few cases where stalkerware apps required payment to enable full activation, successful installation was then taken as sufficient for the purposes of this test.
+blurspy
+easylogger
+hellospy
+hoverwatch
+ikeymonitor
+LetMeSpy
+mobile tracker free
+shadowspy
+spyhuman
+spyzie
+TheTruthSpy
+trackview
+xnspy
 
-Free versions of Kaspersky, Malwarebytes, AVG, Avast Antivirus Mobile Security & Virus Cleaner, McAfee, Trend Micro Mobile Security and Norton Mobile Security, updated (virus definitions) but otherwise run in their default configs were tested.
+Missing from these tests are three stalkerware apps that are more difficult to get recent samples of but, by all 
+indications, are very widely used. These are Flexispy, mSpy and Mobistealth. Future tests will hopefully include 
+recent samples of these apps.
+
+All apps were installed successfully and also fully activated (where possible) on a rooted Android 5.1 phone. In 
+the few cases where stalkerware apps required payment to enable full activation, successful installation was 
+then taken as sufficient for the purposes of this test.
+
+Free versions of Kaspersky, Malwarebytes, AVG, Avast Antivirus Mobile Security & Virus Cleaner, McAfee, Trend 
+Micro Mobile Security and Norton Mobile Security, updated (virus definitions) but otherwise run in their default 
+configs were tested.
 
 Hellospy was the only stalkerware app that was detected by all seven antivirus solutions tested.
 
-Kaspersky missed only one app, a version of Trackview which is an app that is (at the time of writing) still available in the Google Play Store but has a high potential for abuse that has caused various researchers to voice concerns.
+Kaspersky missed only one app, a version of Trackview which is an app that is (at the time of writing) still 
+available in the Google Play Store but has a high potential for abuse that has caused various researchers to 
+voice concerns.
 
-Malwarebytes missed Blurspy, LetMeSpy and Shadowspy, these apps all explicitly market to abusers and make no secret of that fact.
+Malwarebytes missed Blurspy, LetMeSpy and Shadowspy, these apps all explicitly market to abusers and make no 
+secret of that fact.
 
-Trend Micro missed only "hoverwatch", which describes itself as a "parental control app" though the graphics used on even the front page of the "hoverwatch" site show a woman swearing at her computer screen while a man is shown staring at his phone elsewhere.
+Trend Micro missed only "hoverwatch", which describes itself as a "parental control app" though the graphics 
+used on even the front page of the "hoverwatch" site show a woman swearing at her computer screen while a man 
+is shown staring at his phone elsewhere.
 
-Before enabling "Privacy Check" McAfee only detected "hellospy" at all, with "Privacy Check" enabled Shadowspy, iKeyMonitor, SpyHuman are counted as "medium exposure" with no real explanation as to what that means, hellospy warrants a "high exposure" rating and the rest of the stalkerware apps are completely unrated or rated as "low exposure" or "within category average".
+Before enabling "Privacy Check" McAfee only detected "hellospy" at all, with "Privacy Check" enabled Shadowspy, 
+iKeyMonitor, SpyHuman are counted as "medium exposure" with no real explanation as to what that means, 
+hellospy warrants a "high exposure" rating and the rest of the stalkerware apps are completely unrated or rated 
+as "low exposure" or "within category average".
 
-Avast only detected four of the thirteen installed stalkerware apps, Spyzie, Shadowspy, Hellospy and Blurspy. Similarly AVG (owned by Avast) detected the same four stalkerware apps only.
+Avast only detected four of the thirteen installed stalkerware apps, Spyzie, Shadowspy, Hellospy and Blurspy. 
+Similarly AVG (owned by Avast) detected the same four stalkerware apps only.
 
 Norton detected hellospy, hoverwatch, Spyzie and xnspy, though with a rather generic warning about malware.
