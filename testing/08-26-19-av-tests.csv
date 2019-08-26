@@ -1,0 +1,14 @@
+Name,AppID,App,ApkName,Kaspersky,MalwareBytes,TrendMicro,McAfee,Avast,AVG,Norton,apk sha256sum
+BlurSpy,com.saloomughal.spyapp,google keyboard,googlekeyboard.apk,X,-,X,-,X,X,-,36bd1f5093fbd6bceadb56e65455abdfd5ecf805682c17b9a233054bcaad0ee2
+EasyLogger(Free),app.EasyLogger,Easy Logger,easylogger.apk,X,X,X,-,-,-,-,93976fde3c9acefd4707bac5f2bc2d29b55db0deee66a27b7b38301278060f6a
+hellospy,com.hellospy.system,System Services,hellospyapp.apk,X,X,X,X,X,X,X,ea75e842ec7e927aed6ec0fe3a85f515f2f9bfaa1a84d665c7937fa1e5caf7c1
+hoverwatch,com.android.core.mnto,Sync Service,setup-n99s.apk,X,X,-,-,-,-,X,f77079a4e9b77ef4e4b4a8afca99163f474e7e8f461231dc3f375c0093bb9a1e
+iKeymonitor,com.sec.android.internet.im.service.im20190419,Internet Service,iKeyMonitor-Android.apk,X,X,X,-,-,-,-,06011ea8678d1f6c8b0ec1fb113729c8bd0122d5c953dcdbcbd995ee83029019
+LetMeSpy,pl.lidwin.letmespy4,LMS,lms.apk,X,-,X,-,-,-,-,a456009451a128251961927d7b142a1770672d486dbd9eb0cd1cfcdc656b14df
+MobileTrackerFree,security.mobile.parental,Wi-Fi,app-download.apk,X,X,X,-,-,-,-,33ed0bc981f479c9a3a8895f49ca6ee39eaffea8555e6e47f7489233f76e29da
+ShadowSpy,com.client.requestlogs,Mobile display,shadow.apk,X,-,X,-,X,X,X,ebdd719b01b484e75ea477feec129390204c3e7b02d9b11b7290ee3233728bd0
+Spyhuman,com.yurpdpvxnybmlgh,safe service,app-release.apk,X,X,X,-,-,-,-,e5f7e68d5968321533c1079212274510c96aedefe3b95b8791d1f8ef41b72b5d
+spyzie,com.wb.production,System Update Service,Spyzie.apk,X,X,X,-,X,X,X,ee23bf7813734d393a2edd7ca17235d23683923195bf0435708398bdb7c82e94
+TheTruthSpy,com.systemservice,System Service,TheTruthSpy.apk,X,X,X,-,-,-,-,14649fb87cd92830b20d4be714112fb2cb96521ec94e365378265ebe37af0328
+trackview,cn.trackview.agent,,trackview.apk,-,X,X,-,-,-,-,95ce52113170daed35b03c4aea1aa2f25f98d7a351ffd70b2e653f82eda896ea
+xnspy,com.system.task,SystemTask,appv2.apk,X,X,X,-,-,-,X,8500d3a004b9c2301d6cd54a38a9fb04ce75508852bde6683341dc0ee4a684eb
